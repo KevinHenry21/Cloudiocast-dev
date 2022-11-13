@@ -8,34 +8,29 @@ class AnimationSlideUp extends StatefulWidget {
 }
 
 class _AnimationSlideUpState extends State<AnimationSlideUp>
-    with SingleTickerProviderStateMixin{
-
+    with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _position;
   late Animation<double> _opacity;
 
   @override
-  void initState(){
+  void initState() {
     _controller = AnimationController(
       vsync: this,
       duration: Duration(milliseconds: 1000),
     );
 
-    _position = Tween<double>(begin: 20, end: 30).animate(
-        CurvedAnimation(
-            parent: _controller,
-            curve: Interval(0, 1))
-    )..addListener(() {
-      setState(() {});
-    });
+    _position = Tween<double>(begin: 20, end: 30)
+        .animate(CurvedAnimation(parent: _controller, curve: Interval(0, 1)))
+      ..addListener(() {
+        setState(() {});
+      });
 
-    _opacity = Tween<double>(begin: 1, end: 0).animate(
-        CurvedAnimation(
-            parent: _controller,
-            curve: Interval(.5, 1))
-    )..addListener(() {
-      setState(() {});
-    });
+    _opacity = Tween<double>(begin: 1, end: 0)
+        .animate(CurvedAnimation(parent: _controller, curve: Interval(.5, 1)))
+      ..addListener(() {
+        setState(() {});
+      });
 
     _controller.repeat();
     super.initState();
@@ -47,8 +42,7 @@ class _AnimationSlideUpState extends State<AnimationSlideUp>
       padding: EdgeInsets.only(bottom: _position.value),
       child: FloatingActionButton(
         backgroundColor: Color(0xFF3E5165),
-        onPressed: () {
-        },
+        onPressed: () {},
         child: Opacity(
           opacity: _opacity.value,
           child: const Icon(

@@ -1,4 +1,5 @@
 import 'package:demo_run/Screens/home_screen.dart';
+import 'package:demo_run/Widgets/animated_bottombar.dart';
 import 'package:demo_run/Widgets/animation_slide_up.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
@@ -11,29 +12,15 @@ class GetStartedScreen extends StatefulWidget {
   const GetStartedScreen({Key? key}) : super(key: key);
 
   @override
-  State<GetStartedScreen> createState(){
+  State<GetStartedScreen> createState() {
     return _GetStartedScreenState();
   }
 }
 
 class _GetStartedScreenState extends State<GetStartedScreen> {
   @override
-  void initState(){
+  void initState() {
     super.initState();
-  }
-
-  Future<Position?> determinePosition() async {
-    LocationPermission permission;
-    permission = await Geolocator.checkPermission();
-    if (permission == LocationPermission.denied) {
-      permission = await Geolocator.requestPermission();
-      if (permission == LocationPermission.deniedForever) {
-        return Future.error('Location Not Available');
-      }
-    } else {
-      throw Exception('Error');
-    }
-    return await Geolocator.getCurrentPosition();
   }
 
   @override
@@ -41,20 +28,17 @@ class _GetStartedScreenState extends State<GetStartedScreen> {
     return Scaffold(
       backgroundColor: Colors.grey,
       body: GestureDetector(
-
-        onVerticalDragStart: (dragUpdateDetails){
+        onVerticalDragStart: (dragUpdateDetails) {
           Navigator.push(
-            context,
-            PageTransition(
-              type: PageTransitionType.bottomToTop,
-              child: BottomNav(),
-              isIos: true,
-              duration: Duration(milliseconds: 900),
-              reverseDuration: Duration(milliseconds: 900),
-            )
-          );
+              context,
+              PageTransition(
+                type: PageTransitionType.bottomToTop,
+                child: AnimatedBottomNavbar(),
+                isIos: true,
+                duration: Duration(milliseconds: 900),
+                reverseDuration: Duration(milliseconds: 900),
+              ));
         },
-
         child: Container(
           width: double.infinity,
           height: double.infinity,
@@ -80,22 +64,19 @@ class _GetStartedScreenState extends State<GetStartedScreen> {
                         'AR Weather',
                         style: GoogleFonts.raleway(
                             textStyle: const TextStyle(
-                                fontSize: 30,
-                            )
-                        ),
+                          fontSize: 30,
+                        )),
                       ),
                       Text(
                         'Cloudiocast',
                         style: GoogleFonts.cinzel(
-                          textStyle: const TextStyle(
-                            fontSize: 45,
-                          )
-                      ),
+                            textStyle: const TextStyle(
+                          fontSize: 45,
+                        )),
                       ),
                     ],
                   ),
                 ),
-
                 Column(
                   children: const [
                     Padding(
@@ -109,15 +90,11 @@ class _GetStartedScreenState extends State<GetStartedScreen> {
                     )
                   ],
                 )
-
-
               ],
             ),
           ),
         ),
-
       ),
     );
   }
 }
-

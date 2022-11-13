@@ -7,15 +7,11 @@ class ArCamera extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        body: UnityWidget(
-          onUnityCreated: onUnityCreated,
-          onUnityMessage: onUnityMessage,
-
-          fullscreen: false,
-        ),
+    return Scaffold(
+      body: UnityWidget(
+        onUnityCreated: onUnityCreated,
+        onUnityMessage: onUnityMessage,
+        fullscreen: false,
       ),
     );
   }
@@ -36,7 +32,8 @@ class ArCamera extends StatelessWidget {
       print('Received scene loaded from unity: ${sceneInfo.name}');
     }
     if (kDebugMode) {
-      print('Received scene loaded from unity buildIndex: ${sceneInfo.buildIndex}');
+      print(
+          'Received scene loaded from unity buildIndex: ${sceneInfo.buildIndex}');
     }
   }
 }

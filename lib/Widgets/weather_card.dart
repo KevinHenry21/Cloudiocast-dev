@@ -6,12 +6,17 @@ class WeatherCard extends StatelessWidget {
   final IconData icon;
   double width1;
   double height1;
-  WeatherCard({Key? key,
-    required this.text1,
-    required this.text2,
-    required this.icon,
-    required this.width1,
-    required this.height1}) : super(key: key);
+  final Color color;
+
+  WeatherCard(
+      {Key? key,
+      required this.text1,
+      required this.text2,
+      required this.icon,
+      required this.width1,
+      required this.height1,
+      required this.color})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -19,9 +24,10 @@ class WeatherCard extends StatelessWidget {
       width: width1,
       height: height1,
       child: Card(
+        color: color,
         //color: const Color.fromARGB(255, 8, 86, 130),
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(15.0),
+          borderRadius: BorderRadius.circular(20.0),
         ),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -29,10 +35,7 @@ class WeatherCard extends StatelessWidget {
           children: [
             Text(
               text1,
-              style: const TextStyle(
-                color: Colors.white,
-                fontSize: 18
-              ),
+              style: const TextStyle(color: Colors.white, fontSize: 18),
             ),
             const SizedBox(
               height: 5,
@@ -47,10 +50,7 @@ class WeatherCard extends StatelessWidget {
             ),
             Text(
               text2,
-              style: const TextStyle(
-                  color: Colors.white,
-                  fontSize: 18
-              ),
+              style: const TextStyle(color: Colors.white, fontSize: 18),
             )
           ],
         ),

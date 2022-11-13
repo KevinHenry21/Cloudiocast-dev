@@ -24,6 +24,9 @@ dependencies:
   page_transition: ^2.0.9
   get_storage:
   get:
+  animated_notch_bottom_bar: ^0.0.6
+  geocoding: ^2.0.5
+  intl: ^0.17.0
 
 dev_dependencies:
   flutter_test:

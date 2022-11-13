@@ -10,7 +10,7 @@ import 'package:get_storage/get_storage.dart';
 import 'config/theme_color.dart';
 import 'config/theme.dart';
 
-void main() async{
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await GetStorage.init();
   runApp(MyApp());
@@ -31,13 +31,10 @@ void main() async{
 // }
 
 class MyApp extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) => ChangeNotifierProvider(
       create: (context) => ThemeProvider(),
       builder: (context, _) {
-        final themeProvider = Provider.of<ThemeProvider>(context);
-
         // TODO: implement build
         return ScreenUtilInit(
             designSize: const Size(428, 926),
@@ -52,11 +49,8 @@ class MyApp extends StatelessWidget {
                 darkTheme: Themes.dark,
                 // locale: DevicePreview.locale(context),
                 // builder: DevicePreview.appBuilder,
-                home: GetStartedScreen(),
+                home: const GetStartedScreen(),
               );
-            }
-        );
-      }
-    );
+            });
+      });
 }
-
