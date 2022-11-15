@@ -492,145 +492,129 @@ extern void ServiceOptions_GetCulture_m9B460ADE6508D339D92200697228E826AFB12377 
 extern void ServiceOptions_GetRegion_m5D34C7E05CC2E3C2896EE5A0E3B5A5E8DC48F4D3 (void);
 // 0x000000F2 System.Void Microsoft.Maps.Unity.ServiceOptions::.ctor()
 extern void ServiceOptions__ctor_mFEF6A30F31596C67400150660053799EAB6647AD (void);
-// 0x000000F3 System.Void Microsoft.Maps.Unity.ServiceOptions/<GetCulture>d__12::.ctor()
-extern void U3CGetCultureU3Ed__12__ctor_m5791A69F6A5D235FC0DA71ADC7C3B80171244670 (void);
-// 0x000000F4 System.Void Microsoft.Maps.Unity.ServiceOptions/<GetCulture>d__12::MoveNext()
+// 0x000000F3 System.Void Microsoft.Maps.Unity.ServiceOptions/<GetCulture>d__12::MoveNext()
 extern void U3CGetCultureU3Ed__12_MoveNext_m5B3BEEA129649A4CA39CB2AB7048B8199EBDEC5C (void);
-// 0x000000F5 System.Void Microsoft.Maps.Unity.ServiceOptions/<GetCulture>d__12::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000F4 System.Void Microsoft.Maps.Unity.ServiceOptions/<GetCulture>d__12::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CGetCultureU3Ed__12_SetStateMachine_m175A97ECE797B1986E67F4192D490C4D98A01F56 (void);
-// 0x000000F6 System.Void Microsoft.Maps.Unity.ServiceOptions/<GetRegion>d__13::.ctor()
-extern void U3CGetRegionU3Ed__13__ctor_mAA89A8D5E6AFCF38CF36377608F0757DBA7E1046 (void);
-// 0x000000F7 System.Void Microsoft.Maps.Unity.ServiceOptions/<GetRegion>d__13::MoveNext()
+// 0x000000F5 System.Void Microsoft.Maps.Unity.ServiceOptions/<GetRegion>d__13::MoveNext()
 extern void U3CGetRegionU3Ed__13_MoveNext_mD126AF8B7C03C33812F99EDC748854BF373A36EC (void);
-// 0x000000F8 System.Void Microsoft.Maps.Unity.ServiceOptions/<GetRegion>d__13::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000000F6 System.Void Microsoft.Maps.Unity.ServiceOptions/<GetRegion>d__13::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CGetRegionU3Ed__13_SetStateMachine_m41CA67208294BE8C6A94A6BF0B3A7B53F3E26088 (void);
-// 0x000000F9 System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_FormattedAddress()
+// 0x000000F7 System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_FormattedAddress()
 extern void MapLocationAddress_get_FormattedAddress_m2929A29CE35D816A1502CED73803BC2BC894AF0C (void);
-// 0x000000FA System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_AddressLine()
+// 0x000000F8 System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_AddressLine()
 extern void MapLocationAddress_get_AddressLine_m15C4612B0BD89A5C1AAAF39BF3D245274F5DCD9F (void);
-// 0x000000FB System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_Neighborhood()
+// 0x000000F9 System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_Neighborhood()
 extern void MapLocationAddress_get_Neighborhood_m8BDE8574763D680F48EC44E822F2E88B1800812E (void);
-// 0x000000FC System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_Locality()
+// 0x000000FA System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_Locality()
 extern void MapLocationAddress_get_Locality_mD2130CFCCF0F9E6C15DF79A09E967F5D9D8F3F0E (void);
-// 0x000000FD System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_AdminDistrict()
+// 0x000000FB System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_AdminDistrict()
 extern void MapLocationAddress_get_AdminDistrict_m7E0462EC64B4A88FC2D242595588537E690695AC (void);
-// 0x000000FE System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_AdminDistrict2()
+// 0x000000FC System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_AdminDistrict2()
 extern void MapLocationAddress_get_AdminDistrict2_m2885CBB24E019D4DF7AFCB97DC56F0DA5210DCA5 (void);
-// 0x000000FF System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_PostalCode()
+// 0x000000FD System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_PostalCode()
 extern void MapLocationAddress_get_PostalCode_mAE3D8D92E6112D17E5CEC0899711212857B1C226 (void);
-// 0x00000100 System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_CountryRegion()
+// 0x000000FE System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_CountryRegion()
 extern void MapLocationAddress_get_CountryRegion_m94F17F97E9DE616F091073060FDF6236627236D8 (void);
-// 0x00000101 System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_CountryCode()
+// 0x000000FF System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_CountryCode()
 extern void MapLocationAddress_get_CountryCode_m1F20DA85B9BF41B84A2F97594CC6B1596B9E32EF (void);
-// 0x00000102 System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_Landmark()
+// 0x00000100 System.String Microsoft.Maps.Unity.Search.MapLocationAddress::get_Landmark()
 extern void MapLocationAddress_get_Landmark_mD10A5DA2BE38798FB022324E22546D85949D7058 (void);
-// 0x00000103 System.Void Microsoft.Maps.Unity.Search.MapLocationAddress::.ctor(Microsoft.Maps.Unity.Search.Address)
+// 0x00000101 System.Void Microsoft.Maps.Unity.Search.MapLocationAddress::.ctor(Microsoft.Maps.Unity.Search.Address)
 extern void MapLocationAddress__ctor_m92F9BC593CCA291F5512F61E974D2CC3DB72B4CC (void);
-// 0x00000104 System.String Microsoft.Maps.Unity.Search.MapLocation::get_DisplayName()
+// 0x00000102 System.String Microsoft.Maps.Unity.Search.MapLocation::get_DisplayName()
 extern void MapLocation_get_DisplayName_m0433501B8E32681D795FBAB736DCC9ED237EA8A8 (void);
-// 0x00000105 Microsoft.Geospatial.LatLon Microsoft.Maps.Unity.Search.MapLocation::get_Point()
+// 0x00000103 Microsoft.Geospatial.LatLon Microsoft.Maps.Unity.Search.MapLocation::get_Point()
 extern void MapLocation_get_Point_m7D8EFEEA7565677B5BBD4555A06B6D96A24C1536 (void);
-// 0x00000106 Microsoft.Maps.Unity.Search.MapLocationAddress Microsoft.Maps.Unity.Search.MapLocation::get_Address()
+// 0x00000104 Microsoft.Maps.Unity.Search.MapLocationAddress Microsoft.Maps.Unity.Search.MapLocation::get_Address()
 extern void MapLocation_get_Address_mD9D4A7C1743E1BCAB458865704750B04B4911D08 (void);
-// 0x00000107 System.String Microsoft.Maps.Unity.Search.MapLocation::get_EntityType()
+// 0x00000105 System.String Microsoft.Maps.Unity.Search.MapLocation::get_EntityType()
 extern void MapLocation_get_EntityType_m6EE0AD536B1AB5372246B772D15157FE2A65605A (void);
-// 0x00000108 System.Void Microsoft.Maps.Unity.Search.MapLocation::.ctor(System.String,Microsoft.Geospatial.LatLon,Microsoft.Maps.Unity.Search.MapLocationAddress,System.String)
+// 0x00000106 System.Void Microsoft.Maps.Unity.Search.MapLocation::.ctor(System.String,Microsoft.Geospatial.LatLon,Microsoft.Maps.Unity.Search.MapLocationAddress,System.String)
 extern void MapLocation__ctor_m015193776F89C510D84F5DC70C74802F338F56DC (void);
-// 0x00000109 System.Threading.Tasks.Task`1<Microsoft.Maps.Unity.Search.MapLocationFinderResult> Microsoft.Maps.Unity.Search.MapLocationFinder::FindLocations(System.String,Microsoft.Maps.Unity.Search.MapLocationOptions)
+// 0x00000107 System.Threading.Tasks.Task`1<Microsoft.Maps.Unity.Search.MapLocationFinderResult> Microsoft.Maps.Unity.Search.MapLocationFinder::FindLocations(System.String,Microsoft.Maps.Unity.Search.MapLocationOptions)
 extern void MapLocationFinder_FindLocations_m092A7D43AB5593A5567ACBC16EB9DBA6E45033C0 (void);
-// 0x0000010A System.Threading.Tasks.Task`1<Microsoft.Maps.Unity.Search.MapLocationFinderResult> Microsoft.Maps.Unity.Search.MapLocationFinder::FindLocations(System.String,Microsoft.Geospatial.LatLon,Microsoft.Maps.Unity.Search.MapLocationOptions)
+// 0x00000108 System.Threading.Tasks.Task`1<Microsoft.Maps.Unity.Search.MapLocationFinderResult> Microsoft.Maps.Unity.Search.MapLocationFinder::FindLocations(System.String,Microsoft.Geospatial.LatLon,Microsoft.Maps.Unity.Search.MapLocationOptions)
 extern void MapLocationFinder_FindLocations_m6A714C59150D8F08F86DC56331C77A29FF22DB7A (void);
-// 0x0000010B System.Threading.Tasks.Task`1<Microsoft.Maps.Unity.Search.MapLocationFinderResult> Microsoft.Maps.Unity.Search.MapLocationFinder::FindLocations(System.String,Microsoft.Geospatial.GeoBoundingBox,Microsoft.Maps.Unity.Search.MapLocationOptions)
+// 0x00000109 System.Threading.Tasks.Task`1<Microsoft.Maps.Unity.Search.MapLocationFinderResult> Microsoft.Maps.Unity.Search.MapLocationFinder::FindLocations(System.String,Microsoft.Geospatial.GeoBoundingBox,Microsoft.Maps.Unity.Search.MapLocationOptions)
 extern void MapLocationFinder_FindLocations_m7467A4420573868D5A4EC95A0D30F10FCB805799 (void);
-// 0x0000010C System.Threading.Tasks.Task`1<Microsoft.Maps.Unity.Search.MapLocationFinderResult> Microsoft.Maps.Unity.Search.MapLocationFinder::FindLocationsAt(Microsoft.Geospatial.LatLon,Microsoft.Maps.Unity.Search.MapLocationOptions)
+// 0x0000010A System.Threading.Tasks.Task`1<Microsoft.Maps.Unity.Search.MapLocationFinderResult> Microsoft.Maps.Unity.Search.MapLocationFinder::FindLocationsAt(Microsoft.Geospatial.LatLon,Microsoft.Maps.Unity.Search.MapLocationOptions)
 extern void MapLocationFinder_FindLocationsAt_m8545884F9543CB2BFC9D686DA0B955EFE13D63F3 (void);
-// 0x0000010D System.Threading.Tasks.Task`1<System.String> Microsoft.Maps.Unity.Search.MapLocationFinder::BuildUrl(System.String,Microsoft.Maps.Unity.Search.MapLocationOptions,System.String,System.Boolean)
+// 0x0000010B System.Threading.Tasks.Task`1<System.String> Microsoft.Maps.Unity.Search.MapLocationFinder::BuildUrl(System.String,Microsoft.Maps.Unity.Search.MapLocationOptions,System.String,System.Boolean)
 extern void MapLocationFinder_BuildUrl_m887932945BFC94F95541B44AD717FFC4B5537E13 (void);
-// 0x0000010E System.Boolean Microsoft.Maps.Unity.Search.MapLocationFinder::ValidateMapSession(Microsoft.Maps.Unity.Search.MapLocationOptions)
+// 0x0000010C System.Boolean Microsoft.Maps.Unity.Search.MapLocationFinder::ValidateMapSession(Microsoft.Maps.Unity.Search.MapLocationOptions)
 extern void MapLocationFinder_ValidateMapSession_m2D76621B8F90D1925B4A70BCFD869426FC8D31C3 (void);
-// 0x0000010F System.Boolean Microsoft.Maps.Unity.Search.MapLocationFinder::IsNetworkError(UnityEngine.Networking.UnityWebRequest)
+// 0x0000010D System.Boolean Microsoft.Maps.Unity.Search.MapLocationFinder::IsNetworkError(UnityEngine.Networking.UnityWebRequest)
 extern void MapLocationFinder_IsNetworkError_mDE6F7FB544883CCCBF35E50F0EB71247BE2EC843 (void);
-// 0x00000110 System.Boolean Microsoft.Maps.Unity.Search.MapLocationFinder::IsHttpError(UnityEngine.Networking.UnityWebRequest)
+// 0x0000010E System.Boolean Microsoft.Maps.Unity.Search.MapLocationFinder::IsHttpError(UnityEngine.Networking.UnityWebRequest)
 extern void MapLocationFinder_IsHttpError_m18DF470DAD18E52D9C47D3BD4980E2FF6BE36901 (void);
-// 0x00000111 System.Threading.Tasks.Task`1<Microsoft.Maps.Unity.Search.MapLocationFinderResult> Microsoft.Maps.Unity.Search.MapLocationFinder::Request(System.String)
+// 0x0000010F System.Threading.Tasks.Task`1<Microsoft.Maps.Unity.Search.MapLocationFinderResult> Microsoft.Maps.Unity.Search.MapLocationFinder::Request(System.String)
 extern void MapLocationFinder_Request_m8DC4FCD7F1F3F24009C54DF0F436709BE1677278 (void);
-// 0x00000112 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocations>d__0::.ctor()
-extern void U3CFindLocationsU3Ed__0__ctor_mA06C468002B54F4286DD0769C2EBAF654BDC1033 (void);
-// 0x00000113 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocations>d__0::MoveNext()
+// 0x00000110 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocations>d__0::MoveNext()
 extern void U3CFindLocationsU3Ed__0_MoveNext_m9322BF86041E2C05FE6B8C46A533D03D8F07B8DE (void);
-// 0x00000114 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocations>d__0::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000111 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocations>d__0::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CFindLocationsU3Ed__0_SetStateMachine_mA7683AAC3741E35CBB66F0C3DCEFCDBF3A2A8FF3 (void);
-// 0x00000115 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocations>d__1::.ctor()
-extern void U3CFindLocationsU3Ed__1__ctor_m1C2B2A068655B6E260D85A3A9C16AF49AC12168B (void);
-// 0x00000116 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocations>d__1::MoveNext()
+// 0x00000112 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocations>d__1::MoveNext()
 extern void U3CFindLocationsU3Ed__1_MoveNext_m1ADBAD87CEF1F4D8EC1865E0EA2964BD5F7AB70F (void);
-// 0x00000117 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocations>d__1::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000113 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocations>d__1::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CFindLocationsU3Ed__1_SetStateMachine_m4F0ACA67E54EC9AAD9E1A75824B05BB118803A9B (void);
-// 0x00000118 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocations>d__2::.ctor()
-extern void U3CFindLocationsU3Ed__2__ctor_m55978CE21668BE2B47902D122877593F4BF342E9 (void);
-// 0x00000119 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocations>d__2::MoveNext()
+// 0x00000114 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocations>d__2::MoveNext()
 extern void U3CFindLocationsU3Ed__2_MoveNext_mFA7E0F2A710A425BEDB958E5E3C0FBCEB1586B0A (void);
-// 0x0000011A System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocations>d__2::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000115 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocations>d__2::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CFindLocationsU3Ed__2_SetStateMachine_mD498F6199AC058B313F9FBA8AC2329966218EA1B (void);
-// 0x0000011B System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocationsAt>d__3::.ctor()
-extern void U3CFindLocationsAtU3Ed__3__ctor_m6CEF4CE2D20873AD86ED462EC6F6BA5E8C1ACCC7 (void);
-// 0x0000011C System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocationsAt>d__3::MoveNext()
+// 0x00000116 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocationsAt>d__3::MoveNext()
 extern void U3CFindLocationsAtU3Ed__3_MoveNext_mCFDDCC688E879B34A709830590EC823AFA28C5C8 (void);
-// 0x0000011D System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocationsAt>d__3::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000117 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<FindLocationsAt>d__3::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CFindLocationsAtU3Ed__3_SetStateMachine_m91894FE66936CA0251D3E7909FC024F3E1DBCD75 (void);
-// 0x0000011E System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<BuildUrl>d__4::.ctor()
-extern void U3CBuildUrlU3Ed__4__ctor_mD06992F49FA74766D45EDB07ECF621F503F11529 (void);
-// 0x0000011F System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<BuildUrl>d__4::MoveNext()
+// 0x00000118 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<BuildUrl>d__4::MoveNext()
 extern void U3CBuildUrlU3Ed__4_MoveNext_mD27C945D23EDE69655B1823CA55C4068C1B1EA57 (void);
-// 0x00000120 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<BuildUrl>d__4::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x00000119 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<BuildUrl>d__4::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CBuildUrlU3Ed__4_SetStateMachine_m3D9DA56FDFD6CC22167865DC179E3EF6A12C7C3E (void);
-// 0x00000121 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<Request>d__8::.ctor()
-extern void U3CRequestU3Ed__8__ctor_m123AEAC38F9D8D1B37448DC1973C63313B7AF9E7 (void);
-// 0x00000122 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<Request>d__8::MoveNext()
+// 0x0000011A System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<Request>d__8::MoveNext()
 extern void U3CRequestU3Ed__8_MoveNext_m1730624777DA2D79445B48E4956E6053C9AE0EEF (void);
-// 0x00000123 System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<Request>d__8::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x0000011B System.Void Microsoft.Maps.Unity.Search.MapLocationFinder/<Request>d__8::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CRequestU3Ed__8_SetStateMachine_m8C8DD7F9A99BF6192479DD9AE2C55EF35BAB0AD3 (void);
-// 0x00000124 System.Collections.Generic.IReadOnlyList`1<Microsoft.Maps.Unity.Search.MapLocation> Microsoft.Maps.Unity.Search.MapLocationFinderResult::get_Locations()
+// 0x0000011C System.Collections.Generic.IReadOnlyList`1<Microsoft.Maps.Unity.Search.MapLocation> Microsoft.Maps.Unity.Search.MapLocationFinderResult::get_Locations()
 extern void MapLocationFinderResult_get_Locations_mD11300891EADF7261EB061C5F3DAE1ACFE9A994F (void);
-// 0x00000125 Microsoft.Maps.Unity.Search.MapLocationFinderStatus Microsoft.Maps.Unity.Search.MapLocationFinderResult::get_Status()
+// 0x0000011D Microsoft.Maps.Unity.Search.MapLocationFinderStatus Microsoft.Maps.Unity.Search.MapLocationFinderResult::get_Status()
 extern void MapLocationFinderResult_get_Status_m18E18B16D48FCD0B515A8F8172A6D937102FD629 (void);
-// 0x00000126 System.Void Microsoft.Maps.Unity.Search.MapLocationFinderResult::.ctor(Microsoft.Maps.Unity.Search.MapLocationFinderStatus)
+// 0x0000011E System.Void Microsoft.Maps.Unity.Search.MapLocationFinderResult::.ctor(Microsoft.Maps.Unity.Search.MapLocationFinderStatus)
 extern void MapLocationFinderResult__ctor_m8066F16BF9E9888A1D2A8761A77A36BDA319B81F (void);
-// 0x00000127 System.Void Microsoft.Maps.Unity.Search.MapLocationFinderResult::.ctor(Microsoft.Maps.Unity.Search.RestResponse)
+// 0x0000011F System.Void Microsoft.Maps.Unity.Search.MapLocationFinderResult::.ctor(Microsoft.Maps.Unity.Search.RestResponse)
 extern void MapLocationFinderResult__ctor_m588BC43A5208754D953C08BD5AB311A92F87F6E0 (void);
-// 0x00000128 System.Int32 Microsoft.Maps.Unity.Search.MapLocationOptions::get_MaxResults()
+// 0x00000120 System.Int32 Microsoft.Maps.Unity.Search.MapLocationOptions::get_MaxResults()
 extern void MapLocationOptions_get_MaxResults_m88A8EEDE1EBB6675ED90B7ACB541020D317EB783 (void);
-// 0x00000129 System.Void Microsoft.Maps.Unity.Search.MapLocationOptions::set_MaxResults(System.Int32)
+// 0x00000121 System.Void Microsoft.Maps.Unity.Search.MapLocationOptions::set_MaxResults(System.Int32)
 extern void MapLocationOptions_set_MaxResults_mD3E9772372B06221DE312947FE79C62BCF5A0C10 (void);
-// 0x0000012A System.Boolean Microsoft.Maps.Unity.Search.MapLocationOptions::get_IncludeCountryCode()
+// 0x00000122 System.Boolean Microsoft.Maps.Unity.Search.MapLocationOptions::get_IncludeCountryCode()
 extern void MapLocationOptions_get_IncludeCountryCode_mB64B342A93723E56FFEDDE9D93C67F31FA46D36E (void);
-// 0x0000012B System.Void Microsoft.Maps.Unity.Search.MapLocationOptions::set_IncludeCountryCode(System.Boolean)
+// 0x00000123 System.Void Microsoft.Maps.Unity.Search.MapLocationOptions::set_IncludeCountryCode(System.Boolean)
 extern void MapLocationOptions_set_IncludeCountryCode_m95204C4016DD9274129090D494EFD18E9945D82C (void);
-// 0x0000012C System.Boolean Microsoft.Maps.Unity.Search.MapLocationOptions::get_IncludeNeighborhood()
+// 0x00000124 System.Boolean Microsoft.Maps.Unity.Search.MapLocationOptions::get_IncludeNeighborhood()
 extern void MapLocationOptions_get_IncludeNeighborhood_m6CE9B8FE7591091223BD788A390BB53ADDEBCF73 (void);
-// 0x0000012D System.Void Microsoft.Maps.Unity.Search.MapLocationOptions::set_IncludeNeighborhood(System.Boolean)
+// 0x00000125 System.Void Microsoft.Maps.Unity.Search.MapLocationOptions::set_IncludeNeighborhood(System.Boolean)
 extern void MapLocationOptions_set_IncludeNeighborhood_m33A9B067303BFB220BAC214585942F5D9F381AD1 (void);
-// 0x0000012E System.Void Microsoft.Maps.Unity.Search.MapLocationOptions::.ctor()
+// 0x00000126 System.Void Microsoft.Maps.Unity.Search.MapLocationOptions::.ctor()
 extern void MapLocationOptions__ctor_m7CEBFA6F81C31593FA0D2A02F29A96D9E15B5D8F (void);
-// 0x0000012F Microsoft.Maps.Unity.Search.MapLocationAddress Microsoft.Maps.Unity.Search.Address::op_Implicit(Microsoft.Maps.Unity.Search.Address)
+// 0x00000127 Microsoft.Maps.Unity.Search.MapLocationAddress Microsoft.Maps.Unity.Search.Address::op_Implicit(Microsoft.Maps.Unity.Search.Address)
 extern void Address_op_Implicit_m3BBFB702AB46D65630B523705D74FB4C248FD20C (void);
-// 0x00000130 System.Void Microsoft.Maps.Unity.Search.Address::.ctor()
+// 0x00000128 System.Void Microsoft.Maps.Unity.Search.Address::.ctor()
 extern void Address__ctor_m24093848FA773AF640CD8C58A6B6CEC77FFC7F27 (void);
-// 0x00000131 Microsoft.Geospatial.LatLon Microsoft.Maps.Unity.Search.Point::op_Implicit(Microsoft.Maps.Unity.Search.Point)
+// 0x00000129 Microsoft.Geospatial.LatLon Microsoft.Maps.Unity.Search.Point::op_Implicit(Microsoft.Maps.Unity.Search.Point)
 extern void Point_op_Implicit_m766E12B00070409E11EA43253D36CF268C09F2D1 (void);
-// 0x00000132 System.Void Microsoft.Maps.Unity.Search.Point::.ctor()
+// 0x0000012A System.Void Microsoft.Maps.Unity.Search.Point::.ctor()
 extern void Point__ctor_m93CF8708C791BA793339C0B491E03547E600110F (void);
-// 0x00000133 System.Void Microsoft.Maps.Unity.Search.Resource::.ctor()
+// 0x0000012B System.Void Microsoft.Maps.Unity.Search.Resource::.ctor()
 extern void Resource__ctor_mA0BF68325B48446156356FDBB1ED1440EBDD2591 (void);
-// 0x00000134 System.Void Microsoft.Maps.Unity.Search.ResourceSet::.ctor()
+// 0x0000012C System.Void Microsoft.Maps.Unity.Search.ResourceSet::.ctor()
 extern void ResourceSet__ctor_m03FD0CC773DDDE8B0F7CDCAD04823BA33E7E302B (void);
-// 0x00000135 System.Void Microsoft.Maps.Unity.Search.RestResponse::.ctor()
+// 0x0000012D System.Void Microsoft.Maps.Unity.Search.RestResponse::.ctor()
 extern void RestResponse__ctor_mAA4ED2B9FA382777133B03DC843E07D4030CF8D7 (void);
-// 0x00000136 System.String Microsoft.Maps.Unity.Services.Endpoints::BuildUrl(System.String,Microsoft.Maps.Unity.MapSession,System.String)
+// 0x0000012E System.String Microsoft.Maps.Unity.Services.Endpoints::BuildUrl(System.String,Microsoft.Maps.Unity.MapSession,System.String)
 extern void Endpoints_BuildUrl_m6A440C1A800C5C89C916A9E68D79156A586F4A77 (void);
-// 0x00000137 System.Void Microsoft.Maps.Unity.Services.Endpoints::.ctor()
+// 0x0000012F System.Void Microsoft.Maps.Unity.Services.Endpoints::.ctor()
 extern void Endpoints__ctor_m8A13BB9E9DBC4A99DD0297CFA369EC6E7ED5B645 (void);
-static Il2CppMethodPointer s_methodPointers[311] = 
+static Il2CppMethodPointer s_methodPointers[303] = 
 {
 	MapDataCache_get_PercentUtilization_mD214E33328EBCC59CB0A420F43A4AB52340B551A,
 	MapDataCache_set_PercentUtilization_mE9DAA8EB499C2C6958C9AE074777F994C9964BE4,
@@ -874,10 +858,8 @@ static Il2CppMethodPointer s_methodPointers[311] =
 	ServiceOptions_GetCulture_m9B460ADE6508D339D92200697228E826AFB12377,
 	ServiceOptions_GetRegion_m5D34C7E05CC2E3C2896EE5A0E3B5A5E8DC48F4D3,
 	ServiceOptions__ctor_mFEF6A30F31596C67400150660053799EAB6647AD,
-	U3CGetCultureU3Ed__12__ctor_m5791A69F6A5D235FC0DA71ADC7C3B80171244670,
 	U3CGetCultureU3Ed__12_MoveNext_m5B3BEEA129649A4CA39CB2AB7048B8199EBDEC5C,
 	U3CGetCultureU3Ed__12_SetStateMachine_m175A97ECE797B1986E67F4192D490C4D98A01F56,
-	U3CGetRegionU3Ed__13__ctor_mAA89A8D5E6AFCF38CF36377608F0757DBA7E1046,
 	U3CGetRegionU3Ed__13_MoveNext_mD126AF8B7C03C33812F99EDC748854BF373A36EC,
 	U3CGetRegionU3Ed__13_SetStateMachine_m41CA67208294BE8C6A94A6BF0B3A7B53F3E26088,
 	MapLocationAddress_get_FormattedAddress_m2929A29CE35D816A1502CED73803BC2BC894AF0C,
@@ -905,22 +887,16 @@ static Il2CppMethodPointer s_methodPointers[311] =
 	MapLocationFinder_IsNetworkError_mDE6F7FB544883CCCBF35E50F0EB71247BE2EC843,
 	MapLocationFinder_IsHttpError_m18DF470DAD18E52D9C47D3BD4980E2FF6BE36901,
 	MapLocationFinder_Request_m8DC4FCD7F1F3F24009C54DF0F436709BE1677278,
-	U3CFindLocationsU3Ed__0__ctor_mA06C468002B54F4286DD0769C2EBAF654BDC1033,
 	U3CFindLocationsU3Ed__0_MoveNext_m9322BF86041E2C05FE6B8C46A533D03D8F07B8DE,
 	U3CFindLocationsU3Ed__0_SetStateMachine_mA7683AAC3741E35CBB66F0C3DCEFCDBF3A2A8FF3,
-	U3CFindLocationsU3Ed__1__ctor_m1C2B2A068655B6E260D85A3A9C16AF49AC12168B,
 	U3CFindLocationsU3Ed__1_MoveNext_m1ADBAD87CEF1F4D8EC1865E0EA2964BD5F7AB70F,
 	U3CFindLocationsU3Ed__1_SetStateMachine_m4F0ACA67E54EC9AAD9E1A75824B05BB118803A9B,
-	U3CFindLocationsU3Ed__2__ctor_m55978CE21668BE2B47902D122877593F4BF342E9,
 	U3CFindLocationsU3Ed__2_MoveNext_mFA7E0F2A710A425BEDB958E5E3C0FBCEB1586B0A,
 	U3CFindLocationsU3Ed__2_SetStateMachine_mD498F6199AC058B313F9FBA8AC2329966218EA1B,
-	U3CFindLocationsAtU3Ed__3__ctor_m6CEF4CE2D20873AD86ED462EC6F6BA5E8C1ACCC7,
 	U3CFindLocationsAtU3Ed__3_MoveNext_mCFDDCC688E879B34A709830590EC823AFA28C5C8,
 	U3CFindLocationsAtU3Ed__3_SetStateMachine_m91894FE66936CA0251D3E7909FC024F3E1DBCD75,
-	U3CBuildUrlU3Ed__4__ctor_mD06992F49FA74766D45EDB07ECF621F503F11529,
 	U3CBuildUrlU3Ed__4_MoveNext_mD27C945D23EDE69655B1823CA55C4068C1B1EA57,
 	U3CBuildUrlU3Ed__4_SetStateMachine_m3D9DA56FDFD6CC22167865DC179E3EF6A12C7C3E,
-	U3CRequestU3Ed__8__ctor_m123AEAC38F9D8D1B37448DC1973C63313B7AF9E7,
 	U3CRequestU3Ed__8_MoveNext_m1730624777DA2D79445B48E4956E6053C9AE0EEF,
 	U3CRequestU3Ed__8_SetStateMachine_m8C8DD7F9A99BF6192479DD9AE2C55EF35BAB0AD3,
 	MapLocationFinderResult_get_Locations_mD11300891EADF7261EB061C5F3DAE1ACFE9A994F,
@@ -944,319 +920,346 @@ static Il2CppMethodPointer s_methodPointers[311] =
 	Endpoints_BuildUrl_m6A440C1A800C5C89C916A9E68D79156A586F4A77,
 	Endpoints__ctor_m8A13BB9E9DBC4A99DD0297CFA369EC6E7ED5B645,
 };
-static const int32_t s_InvokerIndices[311] = 
+extern void U3CGetCultureU3Ed__12_MoveNext_m5B3BEEA129649A4CA39CB2AB7048B8199EBDEC5C_AdjustorThunk (void);
+extern void U3CGetCultureU3Ed__12_SetStateMachine_m175A97ECE797B1986E67F4192D490C4D98A01F56_AdjustorThunk (void);
+extern void U3CGetRegionU3Ed__13_MoveNext_mD126AF8B7C03C33812F99EDC748854BF373A36EC_AdjustorThunk (void);
+extern void U3CGetRegionU3Ed__13_SetStateMachine_m41CA67208294BE8C6A94A6BF0B3A7B53F3E26088_AdjustorThunk (void);
+extern void U3CFindLocationsU3Ed__0_MoveNext_m9322BF86041E2C05FE6B8C46A533D03D8F07B8DE_AdjustorThunk (void);
+extern void U3CFindLocationsU3Ed__0_SetStateMachine_mA7683AAC3741E35CBB66F0C3DCEFCDBF3A2A8FF3_AdjustorThunk (void);
+extern void U3CFindLocationsU3Ed__1_MoveNext_m1ADBAD87CEF1F4D8EC1865E0EA2964BD5F7AB70F_AdjustorThunk (void);
+extern void U3CFindLocationsU3Ed__1_SetStateMachine_m4F0ACA67E54EC9AAD9E1A75824B05BB118803A9B_AdjustorThunk (void);
+extern void U3CFindLocationsU3Ed__2_MoveNext_mFA7E0F2A710A425BEDB958E5E3C0FBCEB1586B0A_AdjustorThunk (void);
+extern void U3CFindLocationsU3Ed__2_SetStateMachine_mD498F6199AC058B313F9FBA8AC2329966218EA1B_AdjustorThunk (void);
+extern void U3CFindLocationsAtU3Ed__3_MoveNext_mCFDDCC688E879B34A709830590EC823AFA28C5C8_AdjustorThunk (void);
+extern void U3CFindLocationsAtU3Ed__3_SetStateMachine_m91894FE66936CA0251D3E7909FC024F3E1DBCD75_AdjustorThunk (void);
+extern void U3CBuildUrlU3Ed__4_MoveNext_mD27C945D23EDE69655B1823CA55C4068C1B1EA57_AdjustorThunk (void);
+extern void U3CBuildUrlU3Ed__4_SetStateMachine_m3D9DA56FDFD6CC22167865DC179E3EF6A12C7C3E_AdjustorThunk (void);
+extern void U3CRequestU3Ed__8_MoveNext_m1730624777DA2D79445B48E4956E6053C9AE0EEF_AdjustorThunk (void);
+extern void U3CRequestU3Ed__8_SetStateMachine_m8C8DD7F9A99BF6192479DD9AE2C55EF35BAB0AD3_AdjustorThunk (void);
+static Il2CppTokenAdjustorThunkPair s_adjustorThunks[16] = 
 {
-	8896,
-	7248,
-	8809,
-	7172,
-	8984,
-	8809,
-	13572,
-	13565,
-	8984,
-	13066,
-	8896,
-	7248,
-	8808,
-	7171,
-	8736,
-	7097,
-	8736,
-	7097,
-	8896,
-	7248,
-	8896,
-	7248,
-	8984,
-	8984,
-	8984,
-	8984,
-	8984,
-	8984,
-	8984,
-	8984,
-	8984,
-	8984,
-	3841,
+	{ 0x060000F3, U3CGetCultureU3Ed__12_MoveNext_m5B3BEEA129649A4CA39CB2AB7048B8199EBDEC5C_AdjustorThunk },
+	{ 0x060000F4, U3CGetCultureU3Ed__12_SetStateMachine_m175A97ECE797B1986E67F4192D490C4D98A01F56_AdjustorThunk },
+	{ 0x060000F5, U3CGetRegionU3Ed__13_MoveNext_mD126AF8B7C03C33812F99EDC748854BF373A36EC_AdjustorThunk },
+	{ 0x060000F6, U3CGetRegionU3Ed__13_SetStateMachine_m41CA67208294BE8C6A94A6BF0B3A7B53F3E26088_AdjustorThunk },
+	{ 0x06000110, U3CFindLocationsU3Ed__0_MoveNext_m9322BF86041E2C05FE6B8C46A533D03D8F07B8DE_AdjustorThunk },
+	{ 0x06000111, U3CFindLocationsU3Ed__0_SetStateMachine_mA7683AAC3741E35CBB66F0C3DCEFCDBF3A2A8FF3_AdjustorThunk },
+	{ 0x06000112, U3CFindLocationsU3Ed__1_MoveNext_m1ADBAD87CEF1F4D8EC1865E0EA2964BD5F7AB70F_AdjustorThunk },
+	{ 0x06000113, U3CFindLocationsU3Ed__1_SetStateMachine_m4F0ACA67E54EC9AAD9E1A75824B05BB118803A9B_AdjustorThunk },
+	{ 0x06000114, U3CFindLocationsU3Ed__2_MoveNext_mFA7E0F2A710A425BEDB958E5E3C0FBCEB1586B0A_AdjustorThunk },
+	{ 0x06000115, U3CFindLocationsU3Ed__2_SetStateMachine_mD498F6199AC058B313F9FBA8AC2329966218EA1B_AdjustorThunk },
+	{ 0x06000116, U3CFindLocationsAtU3Ed__3_MoveNext_mCFDDCC688E879B34A709830590EC823AFA28C5C8_AdjustorThunk },
+	{ 0x06000117, U3CFindLocationsAtU3Ed__3_SetStateMachine_m91894FE66936CA0251D3E7909FC024F3E1DBCD75_AdjustorThunk },
+	{ 0x06000118, U3CBuildUrlU3Ed__4_MoveNext_mD27C945D23EDE69655B1823CA55C4068C1B1EA57_AdjustorThunk },
+	{ 0x06000119, U3CBuildUrlU3Ed__4_SetStateMachine_m3D9DA56FDFD6CC22167865DC179E3EF6A12C7C3E_AdjustorThunk },
+	{ 0x0600011A, U3CRequestU3Ed__8_MoveNext_m1730624777DA2D79445B48E4956E6053C9AE0EEF_AdjustorThunk },
+	{ 0x0600011B, U3CRequestU3Ed__8_SetStateMachine_m8C8DD7F9A99BF6192479DD9AE2C55EF35BAB0AD3_AdjustorThunk },
+};
+static const int32_t s_InvokerIndices[303] = 
+{
+	8872,
+	7229,
+	8784,
+	7153,
+	8960,
+	8784,
+	13542,
+	13534,
+	8960,
+	13035,
+	8872,
+	7229,
+	8783,
+	7152,
+	8711,
+	7078,
+	8711,
+	7078,
+	8872,
+	7229,
+	8872,
+	7229,
+	8960,
+	8960,
+	8960,
+	8960,
+	8960,
+	8960,
+	8960,
+	8960,
+	8960,
+	8960,
+	3835,
 	227,
-	12761,
-	1858,
-	3841,
-	8984,
-	8850,
-	8850,
-	8850,
-	8850,
-	8984,
-	8984,
-	8984,
-	7093,
-	8984,
-	8984,
-	8984,
-	8984,
-	3945,
-	1458,
-	719,
-	7248,
-	2055,
-	3804,
-	6995,
+	12730,
+	1857,
+	3835,
+	8960,
+	8826,
+	8826,
+	8826,
+	8826,
+	8960,
+	8960,
+	8960,
+	7074,
+	8960,
+	8960,
+	8960,
+	8960,
+	3939,
 	1457,
-	11820,
-	8984,
-	8850,
-	8850,
-	7211,
-	8850,
-	7211,
-	8896,
-	7248,
-	8984,
-	8984,
-	8984,
-	8984,
-	8984,
-	8984,
-	5279,
-	13541,
-	5279,
-	8984,
-	8984,
-	8984,
-	5279,
-	8984,
-	8984,
-	8984,
-	8850,
-	7211,
-	8850,
-	8984,
-	8807,
-	7170,
-	8808,
-	7171,
-	8984,
-	8818,
-	7181,
-	8850,
-	7211,
-	8839,
-	7199,
-	8758,
-	7123,
-	8808,
-	7171,
-	8974,
-	7318,
+	719,
+	7229,
+	2054,
+	3798,
+	6976,
+	1456,
+	11790,
+	8960,
+	8826,
+	8826,
+	7192,
+	8826,
+	7192,
+	8872,
+	7229,
+	8960,
+	8960,
+	8960,
+	8960,
+	8960,
+	8960,
+	5273,
+	13510,
+	5273,
+	8960,
+	8960,
+	8960,
+	5273,
+	8960,
+	8960,
+	8960,
+	8826,
+	7192,
+	8826,
+	8960,
+	8782,
+	7151,
+	8783,
+	7152,
+	8960,
+	8793,
+	7162,
+	8826,
+	7192,
+	8815,
+	7180,
 	8733,
-	7093,
-	8733,
-	7093,
-	8733,
-	7093,
-	8850,
-	7211,
-	8733,
-	7093,
-	8984,
-	8984,
-	8984,
-	8984,
-	12359,
+	7104,
+	8783,
+	7152,
+	8950,
+	7299,
+	8708,
+	7074,
+	8708,
+	7074,
+	8708,
+	7074,
+	8826,
+	7192,
+	8708,
+	7074,
+	8960,
+	8960,
+	8960,
+	8960,
+	12328,
 	0,
-	8984,
-	8850,
-	8850,
-	8850,
-	8733,
-	7093,
-	8808,
-	7171,
-	8850,
-	7211,
-	8984,
-	8984,
-	8984,
-	8984,
-	8984,
-	3841,
-	3841,
-	2019,
-	2019,
-	2019,
-	2019,
-	8984,
-	8984,
-	8984,
-	8984,
-	13612,
-	8984,
-	5162,
-	5162,
-	3144,
-	7211,
-	7211,
-	3837,
+	8960,
+	8826,
+	8826,
+	8826,
+	8708,
+	7074,
+	8783,
+	7152,
+	8826,
+	7192,
+	8960,
+	8960,
+	8960,
+	8960,
+	8960,
+	3835,
+	3835,
+	2018,
+	2018,
+	2018,
+	2018,
+	8960,
+	8960,
+	8960,
+	8960,
+	13582,
+	8960,
+	5156,
+	5156,
+	3141,
+	7192,
+	7192,
+	3831,
 	320,
 	195,
-	8984,
-	3837,
-	6349,
-	8733,
-	8984,
-	8984,
-	8808,
-	7171,
-	8850,
-	7211,
-	7211,
-	6343,
-	1740,
-	1208,
-	2209,
-	8984,
-	7171,
-	8984,
-	8984,
-	8984,
-	8984,
-	8984,
-	8984,
-	8984,
-	8984,
-	12815,
-	11826,
-	11966,
-	10317,
-	11966,
-	11967,
-	11966,
-	10865,
-	11966,
-	10317,
-	11953,
-	11954,
-	12204,
-	12204,
-	11014,
-	11014,
+	8960,
+	3831,
+	6339,
+	8708,
+	8960,
+	8960,
+	8783,
+	7152,
+	8826,
+	7192,
+	7192,
+	6333,
+	1739,
+	1207,
+	2208,
+	8960,
+	7152,
+	8960,
+	8960,
+	8960,
+	8960,
+	8960,
+	8960,
+	8960,
+	8960,
+	12784,
+	11796,
+	11935,
+	10288,
+	11935,
+	11936,
+	11935,
+	10834,
+	11935,
+	10288,
+	11922,
+	11923,
+	12173,
+	12173,
+	10983,
+	10983,
 	0,
 	0,
 	0,
-	8850,
-	1440,
+	8826,
+	1439,
 	787,
-	1882,
+	1881,
 	26,
-	1882,
-	9374,
-	9374,
-	12808,
-	12808,
-	10864,
-	10749,
-	8984,
-	8774,
-	7140,
-	7140,
-	7197,
-	1973,
-	8818,
-	8896,
-	3801,
-	1973,
-	8733,
-	7093,
-	8984,
-	8850,
-	7211,
-	8850,
-	8984,
-	2962,
-	6349,
-	8984,
-	3847,
-	8733,
-	8850,
-	7211,
-	8850,
-	7211,
-	8850,
-	7211,
-	8850,
-	8850,
-	8984,
-	8984,
-	8984,
-	7211,
-	8984,
-	8984,
-	7211,
-	8850,
-	8850,
-	8850,
-	8850,
-	8850,
-	8850,
-	8850,
-	8850,
-	8850,
-	8850,
-	7211,
-	8850,
-	8818,
-	8850,
-	8850,
-	1413,
-	12025,
-	10912,
-	10905,
-	12009,
-	10358,
-	12747,
-	12747,
-	12747,
-	13066,
-	8984,
-	8984,
-	7211,
-	8984,
-	8984,
-	7211,
-	8984,
-	8984,
-	7211,
-	8984,
-	8984,
-	7211,
-	8984,
-	8984,
-	7211,
-	8984,
-	8984,
-	7211,
-	8850,
-	8808,
-	7171,
-	7211,
-	8808,
-	7171,
-	8733,
-	7093,
-	8733,
-	7093,
-	8984,
-	13066,
-	8984,
-	12930,
-	8984,
-	8984,
-	8984,
-	8984,
-	10917,
-	8984,
+	1881,
+	9346,
+	9346,
+	12777,
+	12777,
+	10833,
+	10719,
+	8960,
+	8749,
+	7121,
+	7121,
+	7178,
+	1972,
+	8793,
+	8872,
+	3795,
+	1972,
+	8708,
+	7074,
+	8960,
+	8826,
+	7192,
+	8826,
+	8960,
+	2959,
+	6339,
+	8960,
+	3841,
+	8708,
+	8826,
+	7192,
+	8826,
+	7192,
+	8826,
+	7192,
+	8826,
+	8826,
+	8960,
+	8960,
+	7192,
+	8960,
+	7192,
+	8826,
+	8826,
+	8826,
+	8826,
+	8826,
+	8826,
+	8826,
+	8826,
+	8826,
+	8826,
+	7192,
+	8826,
+	8793,
+	8826,
+	8826,
+	1412,
+	11994,
+	10881,
+	10874,
+	11978,
+	10329,
+	12716,
+	12716,
+	12716,
+	13035,
+	8960,
+	7192,
+	8960,
+	7192,
+	8960,
+	7192,
+	8960,
+	7192,
+	8960,
+	7192,
+	8960,
+	7192,
+	8826,
+	8783,
+	7152,
+	7192,
+	8783,
+	7152,
+	8708,
+	7074,
+	8708,
+	7074,
+	8960,
+	13035,
+	8960,
+	12899,
+	8960,
+	8960,
+	8960,
+	8960,
+	10886,
+	8960,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
@@ -1284,10 +1287,10 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Microsoft_Maps_Unity_SupportingScrip
 const Il2CppCodeGenModule g_Microsoft_Maps_Unity_SupportingScripts_CodeGenModule = 
 {
 	"Microsoft.Maps.Unity.SupportingScripts.dll",
-	311,
+	303,
 	s_methodPointers,
-	0,
-	NULL,
+	16,
+	s_adjustorThunks,
 	s_InvokerIndices,
 	0,
 	NULL,
