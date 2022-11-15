@@ -1,12 +1,9 @@
-import 'package:demo_run/Screens/home_screen.dart';
 import 'package:demo_run/Widgets/animated_bottombar.dart';
 import 'package:demo_run/Widgets/animation_slide_up.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:page_transition/page_transition.dart';
-import 'package:geolocator/geolocator.dart';
 import 'package:google_fonts/google_fonts.dart';
-import '../Widgets/bottom_navigation_bar.dart';
 
 class GetStartedScreen extends StatefulWidget {
   const GetStartedScreen({Key? key}) : super(key: key);
@@ -35,7 +32,7 @@ class _GetStartedScreenState extends State<GetStartedScreen> {
                 type: PageTransitionType.bottomToTop,
                 child: AnimatedBottomNavbar(),
                 isIos: true,
-                duration: Duration(milliseconds: 900),
+                duration: Duration(milliseconds: 200),
                 reverseDuration: Duration(milliseconds: 900),
               ));
         },
@@ -58,21 +55,23 @@ class _GetStartedScreenState extends State<GetStartedScreen> {
                   child: Column(
                     children: [
                       const SizedBox(
-                        height: 20,
-                      ),
-                      Text(
-                        'AR Weather',
-                        style: GoogleFonts.raleway(
-                            textStyle: const TextStyle(
-                          fontSize: 30,
-                        )),
+                        height: 40,
                       ),
                       Text(
                         'Cloudiocast',
                         style: GoogleFonts.cinzel(
                             textStyle: const TextStyle(
                           fontSize: 45,
+                              color: Colors.white
                         )),
+                      ),
+                      Text(
+                        'Bringing weather to life !',
+                        style: GoogleFonts.montserrat(
+                            textStyle: const TextStyle(
+                                fontSize: 18,
+                                color: Colors.white
+                            )),
                       ),
                     ],
                   ),

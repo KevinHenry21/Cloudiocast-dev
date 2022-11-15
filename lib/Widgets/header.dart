@@ -1,14 +1,11 @@
 import 'package:demo_run/Widgets/weather_info.dart';
-import 'package:demo_run/model/weather_data_current.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:geocoding/geocoding.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:get/get.dart';
-import 'package:intl/intl.dart';
-import '../config/theme_services.dart';
 import '../controller/global_controller.dart';
-import 'package:demo_run/model/weather_data_current.dart';
+
+import '../utils/config/theme_services.dart';
 
 class HeaderWidget extends StatefulWidget {
   const HeaderWidget({Key? key}) : super(key: key);
@@ -26,9 +23,10 @@ class _HeaderWidgetState extends State<HeaderWidget> {
 
   @override
   void initState() {
+    super.initState();
     getAddress(globalController.getLattitude().value,
         globalController.getLongitude().value);
-    super.initState();
+
   }
 
   getAddress(lat, lon) async {
@@ -38,6 +36,7 @@ class _HeaderWidgetState extends State<HeaderWidget> {
       city = place.locality!;
       country = place.country!;
     });
+    // print(placemark);
   }
 
   @override
@@ -58,17 +57,6 @@ class _HeaderWidgetState extends State<HeaderWidget> {
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                Container(
-                  margin: EdgeInsets.symmetric(vertical: 25.0),
-                  child: GestureDetector(
-                    onTap: () {},
-                    child: const Padding(
-                      padding: EdgeInsets.all(12.0),
-                      child: Icon(Icons.search_sharp,
-                          size: 32, color: Colors.white),
-                    ),
-                  ),
-                ),
                 Container(
                   margin: EdgeInsets.symmetric(vertical: 25.0, horizontal: 16),
                   decoration: BoxDecoration(

@@ -6,8 +6,10 @@ class Themes {
     primaryColor: const Color(0xFFFAFAF9),
     colorScheme: const ColorScheme.light(),
     brightness: Brightness.light,
-    secondaryHeaderColor: const Color(0xFF5782A5),
-    cardColor: const Color(0xFF3D5D84),
+    secondaryHeaderColor: Colors.black,
+    shadowColor: Colors.black,
+    cardColor: const Color(0xFF627680),
+    selectedRowColor: Color(0xBFFFFFFF),
   );
 
   static final dark = ThemeData(
@@ -15,7 +17,9 @@ class Themes {
     primaryColor: Color(0xFF363A40),
     colorScheme: const ColorScheme.dark(),
     brightness: Brightness.dark,
-    secondaryHeaderColor: Color.fromARGB(255, 63, 77, 90),
+    shadowColor: Colors.white,
+    secondaryHeaderColor: Colors.white,
     cardColor: Color.fromARGB(255, 104, 123, 144),
+    selectedRowColor: Color(0x81232E34),
   );
 }

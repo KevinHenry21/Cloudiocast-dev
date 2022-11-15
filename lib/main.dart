@@ -1,4 +1,7 @@
-import 'package:demo_run/config/theme_services.dart';
+import 'package:demo_run/utils/config/theme.dart';
+import 'package:demo_run/utils/config/theme_color.dart';
+import 'package:demo_run/utils/config/theme_services.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:demo_run/Screens/getting_started_screen.dart';
@@ -7,8 +10,6 @@ import 'package:device_preview/device_preview.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:provider/provider.dart';
 import 'package:get_storage/get_storage.dart';
-import 'config/theme_color.dart';
-import 'config/theme.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,7 +18,9 @@ void main() async {
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
 }
 
-// void main() {
+// void main() async{
+//   WidgetsFlutterBinding.ensureInitialized();
+//   await GetStorage.init();
 //   runApp(
 //       DevicePreview(
 //         enabled: !kReleaseMode,

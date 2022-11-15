@@ -18,7 +18,7 @@ class _AnimatedBottomNavbarState extends State<AnimatedBottomNavbar> {
 
   /// widget list
   final List<Widget> bottomBarPages = [
-    const HomeScreen(),
+    HomeScreen(),
     ArCamera(),
     Settings(),
   ];
@@ -49,7 +49,7 @@ class _AnimatedBottomNavbarState extends State<AnimatedBottomNavbar> {
               pageController: _pageController,
               color: Theme.of(context).primaryColor,
               showLabel: false,
-              notchColor: Color(0xFF6893BB),
+              notchColor: const Color(0xFF6893BB),
               bottomBarItems: const [
                 BottomBarItem(
                   inActiveItem: Icon(

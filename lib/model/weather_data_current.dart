@@ -8,46 +8,47 @@ class WeatherDataCurrent{
       WeatherDataCurrent(current: Current.fromJson(json['current']));
 }
 
-
-
-class Current { 
-  // int? sunrise;
-  // int? sunset;
+class Current {
+  int? dt;
+  int? sunrise;
+  int? sunset;
   double? temp;
-  // double? feelsLike;
+  int? feelsLike;
   // int? pressure;
   int? humidity;
-  int? uvi;
+  double? uvi;
   // int? clouds;
-  // int? visibility;
+  int? visibility;
   double? windSpeed;
   List<Weather>? weather;
 
   Current({
-    // this.sunrise,
-    // this.sunset,
+    this.dt,
+    this.sunrise,
+    this.sunset,
     this.temp,
-    // this.feelsLike,
+    this.feelsLike,
     // this.pressure,
     this.humidity,
     this.uvi,
     // this.clouds,
-    // this.visibility,
+    this.visibility,
     this.windSpeed,
     // this.windDeg,
     this.weather,
   });
 
   factory Current.fromJson(Map<String, dynamic> json) => Current(
-        // sunrise: json['sunrise'] as int?,
-        // sunset: json['sunset'] as int?,
+        dt: json['dt'] as int?,
+        sunrise: json['sunrise'] as int?,
+        sunset: json['sunset'] as int?,
         temp: (json['temp'] as num?)?.toDouble(),
-        // feelsLike: (json['feels_like'] as num?)?.toDouble(),
+        feelsLike: (json['feels_like'] as num?)?.round(),
         // pressure: json['pressure'] as int?,
         humidity: json['humidity'] as int?,
-        uvi: json['uvi'] as int?,
+        uvi: (json['uvi'] as num?)?.toDouble(),
         // clouds: json['clouds'] as int?,
-        // visibility: json['visibility'] as int?,
+        visibility: (json['visibility'] as int?)?.toInt(),
         windSpeed: (json['wind_speed'] as num?)?.toDouble(),
         // windDeg: json['wind_deg'] as int?,
         // windGust: (json['wind_gust'] as num?)?.toDouble(),
@@ -57,15 +58,16 @@ class Current {
       );
 
   Map<String, dynamic> toJson() => {
-        // 'sunrise': sunrise,
-        // 'sunset': sunset,
+        'dt': dt,
+        'sunrise': sunrise,
+        'sunset': sunset,
         'temp': temp,
-        // 'feels_like': feelsLike,
+        'feels_like': feelsLike,
         // 'pressure': pressure,
         'humidity': humidity,
         'uvi': uvi,
         // 'clouds': clouds,
-        // 'visibility': visibility,
+        'visibility': visibility,
         'wind_speed': windSpeed,
         // 'wind_deg': windDeg,
         // 'wind_gust': windGust,

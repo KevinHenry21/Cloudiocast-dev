@@ -42,8 +42,11 @@ class Settings extends StatelessWidget {
               "Interface",
               style: TextStyle(fontSize: 20),
             ),
-            buildMenuItem(text: 'Theme', icon: CupertinoIcons.moon_fill),
-            buildMenuItem(text: 'Default Theme', icon: CupertinoIcons.moon),
+            buildMenuItem(
+                text: 'Dark Theme',
+                icon: CupertinoIcons.moon_fill
+            ),
+            buildMenuItem(text: 'Light Theme', icon: CupertinoIcons.moon),
             SizedBox(
               height: 05.0,
             ),

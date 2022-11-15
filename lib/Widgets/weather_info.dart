@@ -72,7 +72,7 @@ class CurrentWeather extends StatelessWidget {
                 children: [
                   Column(
                     children: [
-                      Icon(Icons.water_drop, color: Colors.white),
+                      Image.asset("assets/weather/humidity.png", width: 40, height: 40,),
                       const SizedBox(
                         height: 10,
                       ),
@@ -84,7 +84,7 @@ class CurrentWeather extends StatelessWidget {
                   ),
                   Column(
                     children: [
-                      Icon(Icons.wind_power, color: Colors.white),
+                      Image.asset("assets/weather/wind.png", width: 40, height: 40,),
                       const SizedBox(
                         height: 10,
                       ),
@@ -96,8 +96,7 @@ class CurrentWeather extends StatelessWidget {
                   ),
                   Column(
                     children: [
-                      Icon(Icons.energy_savings_leaf,
-                          color: Colors.white),
+                      Image.asset("assets/weather/11n.png", width: 40, height: 40,),
                       const SizedBox(
                         height: 10,
                       ),
@@ -109,10 +108,8 @@ class CurrentWeather extends StatelessWidget {
                   ),
                   Column(
                     children:  [
-                      Icon(Icons.sunny, color: Colors.white),
-                      const SizedBox(
-                        height: 10,
-                      ),
+                      Image.asset("assets/weather/uv.png", width: 40, height: 40,),
+                      SizedBox(height: 10,),
                       Text(
                         '${weatherDataCurrent.current.uvi}',
                         style: TextStyle(color: Colors.white),
