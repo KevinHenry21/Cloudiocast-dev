@@ -1,0 +1,61 @@
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+ /* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    height: 100%;
+    margin: 0 0 20px;
+    font-family: Arial;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color: rgb(197, 196, 196);
+    color: rgb(245, 245, 245);
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  .margin1{
+    margin-left: 20px;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: rgb(24, 23, 23);
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+  }
+  
+  #Customer {background-color: whitesmoke;}
+  #Developer {background-color: white;}
+  

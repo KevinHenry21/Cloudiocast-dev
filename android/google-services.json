@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1026994530739",
+    "project_id": "cloudiocast-9ac4e",
+    "storage_bucket": "cloudiocast-9ac4e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026994530739:android:960bd4c07564a2304fc3c6",
+        "android_client_info": {
+          "package_name": "com.xraph.plugin.flutter_unity_widget_example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026994530739-0dapg7on0i3h32lk3r3eop3urkec4e66.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe-hx_k3UKyJAGJ9Sh26Z1uDph9rGvsL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026994530739-0dapg7on0i3h32lk3r3eop3urkec4e66.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1026994530739-77vch2g2vf8ohn835ionohepqqn0omt0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.cloudiocast"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
