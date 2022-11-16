@@ -69,13 +69,13 @@ system.
 
 
 Level 1 Context Diagram
-![ProductArchitecture](https://user-images.githubusercontent.com/69208308/199923746-bed3216d-e79e-49ca-a054-e100a5cfd0ef.png)
+<img width="306" alt="image" src="https://user-images.githubusercontent.com/69208308/202121648-c8f4f905-28e2-4d45-adbb-99d558e178a5.png">
 
 Level 2 Container Diagram
-![ProductArchitecture](https://user-images.githubusercontent.com/69208308/199923871-397ae07d-5379-47b2-a842-d445ec9f8186.png)
+<img width="518" alt="image" src="https://user-images.githubusercontent.com/69208308/202121954-7c5ba6ed-69e6-4a0a-a543-61f2b235e7be.png">
 
 Level 3 Component diagram
-![ProductArchitecture](https://user-images.githubusercontent.com/69208308/199924011-12af9ae4-d10e-4f86-8a2f-b32395b53569.png)
+<img width="449" alt="image" src="https://user-images.githubusercontent.com/69208308/202122083-c0ee435a-fea1-425f-98b3-06bb6836f14c.png">
 
 ### DevSecOps Workflow
 

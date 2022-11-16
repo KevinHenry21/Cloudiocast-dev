@@ -1,0 +1,47 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+jobs:
+  - job: android
+    pool: Cloudiocast
+    variables:
+      - group: secrets
+      - group: general
+      - name: androidReleaseDir
+        value: C:/agent/_work/2/a/build/app/outputs/flutter-apk
+      - name: apkFile
+        value: $(androidReleaseDir)/app-release.apk
+    steps:
+
+    - script: flutter build apk
+      displayName: Flutter build
+
+
+    - task: CopyFiles@2
+      displayName: "Copy apk to artifact directory"
+      inputs:
+        contents: "**/*.apk"
+        targetFolder: "$(build.artifactStagingDirectory)"
+
+    - task: PublishBuildArtifacts@1
+      displayName: "Publish signed apk as artifact"
+      inputs:
+        artifactName: "drop"
+
+    - task: Bash@3
+      displayName: "Upload to firebase app distribution"
+      inputs:
+        targetType: "inline"
+        script: |
+          npm i -g firebase-tools
+          ls -la $(androidReleaseDir)
+          firebase appdistribution:distribute "$(apkFile)" \
+            --app "$(androidFirebaseDistAppId)" \
+            --release-notes "From Azure Devops" \
+            --groups "beta-testers" \
+            --token "$(firebasetoken)"
