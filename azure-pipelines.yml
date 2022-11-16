@@ -13,7 +13,7 @@ jobs:
       - group: secrets
       - group: general
       - name: androidReleaseDir
-        value: $(build.artifactStagingDirectory)/build/app/outputs/flutter-apk
+        value: C:/agent/_work/2/a/build/app/outputs/flutter-apk
       - name: apkFile
         value: $(androidReleaseDir)/app-release.apk
     steps:
