@@ -21,15 +21,6 @@ jobs:
     - script: flutter build apk
       displayName: Flutter build
 
-    - task: AndroidSigning@3
-      displayName: "Signing and aligning APK file(s) **/*.apk"
-      inputs:
-        apkFiles: "**/*.apk"
-        apksign: true
-        apksignerKeystoreFile: android-key.jks
-        apksignerKeystorePassword: "$(androidKeystorePassword)"
-        apksignerKeystoreAlias: helloworld-counterapp
-        apksignerKeyPassword: "$(androidKeyPassword)"
 
     - task: CopyFiles@2
       displayName: "Copy apk to artifact directory"
