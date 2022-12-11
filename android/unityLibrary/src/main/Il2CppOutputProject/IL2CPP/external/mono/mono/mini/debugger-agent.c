@@ -4806,7 +4806,7 @@ appdomain_start_unload (MonoProfiler *prof, MonoDomain *domain)
 	 */
 	tls = (DebuggerTlsData *)mono_native_tls_get_value (debugger_tls_id);
 	g_assert (tls);
-	tls->domain_unloading = domain;
+	mono_gc_wbarrier_generic_store_internal((void**)&tls->domain_unloading, domain);
 }
 
 static void
@@ -4819,7 +4819,7 @@ appdomain_unload (MonoProfiler *prof, MonoDomain *domain)
 
 	tls = (DebuggerTlsData *)mono_native_tls_get_value (debugger_tls_id);
 	g_assert (tls);
-	tls->domain_unloading = NULL;
+	mono_gc_wbarrier_generic_store_internal((void**)&tls->domain_unloading, NULL);
 
 	mono_de_clear_breakpoints_for_domain (domain);
 	

@@ -34,12 +34,12 @@ static Il2CppMethodPointer s_methodPointers[6] =
 };
 static const int32_t s_InvokerIndices[6] = 
 {
-	11982,
-	10886,
-	13035,
-	11982,
+	12634,
+	11520,
+	13715,
+	12634,
 	0,
-	11994,
+	12646,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {

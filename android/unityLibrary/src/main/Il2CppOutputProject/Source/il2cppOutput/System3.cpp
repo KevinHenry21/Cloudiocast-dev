@@ -302,6 +302,8 @@ struct NumberFormatInfo_t8E26808B202927FEBF9064FCFEEA4D6E076E6472;
 struct Process_tF74794C64BCE464912BF158980B347CE66AF203B;
 // System.Diagnostics.ProcessModuleCollection
 struct ProcessModuleCollection_tB2EBC893262A796A0182EDF0022F0B08E30461EE;
+// System.Diagnostics.ProcessStartInfo
+struct ProcessStartInfo_t03E06D8098D3DC01CDACE23EE2D308BDA8E41D3C;
 // System.Diagnostics.ProcessThreadCollection
 struct ProcessThreadCollection_t9E9F6B3EB7E8031736898D77DD88F2BD29740971;
 // System.Text.RegularExpressions.Regex
@@ -2219,48 +2221,50 @@ struct Process_tF74794C64BCE464912BF158980B347CE66AF203B  : public Component_t7D
 	bool ___haveWorkingSetLimits_13;
 	// System.Boolean System.Diagnostics.Process::havePriorityClass
 	bool ___havePriorityClass_14;
+	// System.Diagnostics.ProcessStartInfo System.Diagnostics.Process::startInfo
+	ProcessStartInfo_t03E06D8098D3DC01CDACE23EE2D308BDA8E41D3C* ___startInfo_15;
 	// System.Boolean System.Diagnostics.Process::watchForExit
-	bool ___watchForExit_15;
+	bool ___watchForExit_16;
 	// System.Boolean System.Diagnostics.Process::watchingForExit
-	bool ___watchingForExit_16;
+	bool ___watchingForExit_17;
 	// System.EventHandler System.Diagnostics.Process::onExited
-	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* ___onExited_17;
+	EventHandler_tC6323FD7E6163F965259C33D72612C0E5B9BAB82* ___onExited_18;
 	// System.Boolean System.Diagnostics.Process::exited
-	bool ___exited_18;
+	bool ___exited_19;
 	// System.Int32 System.Diagnostics.Process::exitCode
-	int32_t ___exitCode_19;
+	int32_t ___exitCode_20;
 	// System.Boolean System.Diagnostics.Process::signaled
-	bool ___signaled_20;
+	bool ___signaled_21;
 	// System.Boolean System.Diagnostics.Process::haveExitTime
-	bool ___haveExitTime_21;
+	bool ___haveExitTime_22;
 	// System.Boolean System.Diagnostics.Process::raisedOnExited
-	bool ___raisedOnExited_22;
+	bool ___raisedOnExited_23;
 	// System.Threading.RegisteredWaitHandle System.Diagnostics.Process::registeredWaitHandle
-	RegisteredWaitHandle_t5AEE89AB4B4A54EAC5B66A72A0D7D2EF8C82EC86* ___registeredWaitHandle_23;
+	RegisteredWaitHandle_t5AEE89AB4B4A54EAC5B66A72A0D7D2EF8C82EC86* ___registeredWaitHandle_24;
 	// System.Threading.WaitHandle System.Diagnostics.Process::waitHandle
-	WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8* ___waitHandle_24;
+	WaitHandle_t08F8DB54593B241FE32E0DD0BD3D82785D3AE3D8* ___waitHandle_25;
 	// System.ComponentModel.ISynchronizeInvoke System.Diagnostics.Process::synchronizingObject
-	RuntimeObject* ___synchronizingObject_25;
+	RuntimeObject* ___synchronizingObject_26;
 	// System.IO.StreamReader System.Diagnostics.Process::standardOutput
-	StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* ___standardOutput_26;
+	StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* ___standardOutput_27;
 	// System.IO.StreamWriter System.Diagnostics.Process::standardInput
-	StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4* ___standardInput_27;
+	StreamWriter_t6E7DF7D524AA3C018A65F62EE80779873ED4D1E4* ___standardInput_28;
 	// System.IO.StreamReader System.Diagnostics.Process::standardError
-	StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* ___standardError_28;
+	StreamReader_t81027449065C1B0C339DB46241D8001A6F61130B* ___standardError_29;
 	// System.Boolean System.Diagnostics.Process::disposed
-	bool ___disposed_29;
+	bool ___disposed_30;
 	// System.Diagnostics.Process/StreamReadMode System.Diagnostics.Process::outputStreamReadMode
-	int32_t ___outputStreamReadMode_30;
+	int32_t ___outputStreamReadMode_31;
 	// System.Diagnostics.Process/StreamReadMode System.Diagnostics.Process::errorStreamReadMode
-	int32_t ___errorStreamReadMode_31;
+	int32_t ___errorStreamReadMode_32;
 	// System.Diagnostics.Process/StreamReadMode System.Diagnostics.Process::inputStreamReadMode
-	int32_t ___inputStreamReadMode_32;
+	int32_t ___inputStreamReadMode_33;
 	// System.Diagnostics.AsyncStreamReader System.Diagnostics.Process::output
-	AsyncStreamReader_tAC4F4C9FDA0C1A8D21F2B1C838C08C0E83AE871B* ___output_33;
+	AsyncStreamReader_tAC4F4C9FDA0C1A8D21F2B1C838C08C0E83AE871B* ___output_34;
 	// System.Diagnostics.AsyncStreamReader System.Diagnostics.Process::error
-	AsyncStreamReader_tAC4F4C9FDA0C1A8D21F2B1C838C08C0E83AE871B* ___error_34;
+	AsyncStreamReader_tAC4F4C9FDA0C1A8D21F2B1C838C08C0E83AE871B* ___error_35;
 	// System.String System.Diagnostics.Process::process_name
-	String_t* ___process_name_35;
+	String_t* ___process_name_36;
 };
 
 // System.Text.RegularExpressions.Regex

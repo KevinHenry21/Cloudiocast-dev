@@ -39304,7 +39304,7 @@ IL_0014:
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 35752));
 		NullCheck(L_6);
 		bool L_8;
-		L_8 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(115 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_6, L_7);
+		L_8 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(119 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_6, L_7);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 35752));
 		if (!L_8)
 		{
@@ -39348,7 +39348,7 @@ IL_0044:
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 35759));
 		NullCheck(L_15);
 		bool L_17;
-		L_17 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(115 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_15, L_16);
+		L_17 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(119 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_15, L_16);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 35759));
 		if (!L_17)
 		{
@@ -39488,7 +39488,7 @@ IL_0014:
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 35796));
 		NullCheck(L_6);
 		bool L_8;
-		L_8 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(115 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_6, L_7);
+		L_8 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(119 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_6, L_7);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 35796));
 		if (!L_8)
 		{
@@ -39536,7 +39536,7 @@ IL_0047:
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 35805));
 		NullCheck(L_14);
 		bool L_16;
-		L_16 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(115 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_14, L_15);
+		L_16 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(119 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_14, L_15);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 35805));
 		if (L_16)
 		{
@@ -41742,7 +41742,7 @@ IL_0070:
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 36021));
 		NullCheck(L_17);
 		bool L_19;
-		L_19 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(115 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_17, L_18);
+		L_19 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(119 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_17, L_18);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 36021));
 		if (!L_19)
 		{
@@ -41801,7 +41801,7 @@ IL_00ca:
 		STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 36028));
 		NullCheck(L_25);
 		bool L_28;
-		L_28 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(115 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_25, L_27);
+		L_28 = VirtualFuncInvoker1< bool, RuntimeObject* >::Invoke(119 /* System.Boolean System.Type::IsInstanceOfType(System.Object) */, L_25, L_27);
 		CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 36028));
 		if (L_28)
 		{
