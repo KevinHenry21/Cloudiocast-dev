@@ -26,7 +26,6 @@ class _HeaderWidgetState extends State<HeaderWidget> {
     super.initState();
     getAddress(globalController.getLattitude().value,
         globalController.getLongitude().value);
-
   }
 
   getAddress(lat, lon) async {
@@ -77,18 +76,19 @@ class _HeaderWidgetState extends State<HeaderWidget> {
                       ),
                     ],
                   ),
-                  child: GestureDetector(
-                    onTap: () {
-                      ThemeService().switchTheme();
-                    },
-                    child: const Padding(
-                      padding: EdgeInsets.all(12.0),
-                      child: Icon(
-                        Icons.nightlight_round_sharp,
-                        size: 28,
+                  child:
+                      GestureDetector(
+                        onTap: () {
+                          ThemeService().switchTheme();
+                        },
+                        child: const Padding(
+                          padding: EdgeInsets.all(12.0),
+                          child: Icon(
+                            Icons.nightlight_round_sharp,
+                            size: 28,
+                          ),
+                        ),
                       ),
-                    ),
-                  ),
                 ),
               ],
             ),
@@ -114,14 +114,16 @@ class _HeaderWidgetState extends State<HeaderWidget> {
                   const SizedBox(
                     height: 10,
                   ),
-                  CurrentWeather(weatherDataCurrent: globalController.getWeatherData().getCurrentWeather(),),
+                  CurrentWeather(
+                    weatherDataCurrent:
+                        globalController.getWeatherData().getCurrentWeather(),
+                  ),
                 ],
               ),
             )
           ],
         ),
       )
-
     ]);
   }
 }

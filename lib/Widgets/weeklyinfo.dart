@@ -22,7 +22,8 @@ class WeeklyInfo extends StatelessWidget {
       margin: EdgeInsets.all(20.0),
       padding: EdgeInsets.all(24.0),
       decoration: BoxDecoration(
-          color: Theme.of(context).selectedRowColor, borderRadius: BorderRadius.circular(20)),
+          color: Theme.of(context).selectedRowColor,
+          borderRadius: BorderRadius.circular(20)),
       child: Column(
         children: [
           Container(
@@ -80,8 +81,7 @@ class WeeklyInfo extends StatelessWidget {
                             width: 30,
                           ),
                           Text(
-                              "${weatherDataDaily.daily[index].temp!.max}° / ${weatherDataDaily.daily[index].temp!.min}°"
-                          ),
+                              "${weatherDataDaily.daily[index].temp!.max}° / ${weatherDataDaily.daily[index].temp!.min}°"),
                         ],
                       )
                     ],

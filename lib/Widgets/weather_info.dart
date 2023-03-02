@@ -6,20 +6,20 @@ import 'package:intl/intl.dart';
 
 class CurrentWeather extends StatelessWidget {
   final WeatherDataCurrent weatherDataCurrent;
-  CurrentWeather({Key? key, required this.weatherDataCurrent}) : super(key: key);
+  CurrentWeather({Key? key, required this.weatherDataCurrent})
+      : super(key: key);
 
   String date = DateFormat("yMMMMd").format(DateTime.now());
   @override
   Widget build(BuildContext context) {
     return Column(
       children: [
-
         Center(
           child: Text(
-            'Sunny',
+            '${weatherDataCurrent.current.weather![0].description}',
             style: GoogleFonts.montserrat(
                 textStyle: const TextStyle(
-                    fontSize: 16,
+                    fontSize: 20,
                     color: Colors.white,
                     fontWeight: FontWeight.w500)),
           ),
@@ -42,18 +42,18 @@ class CurrentWeather extends StatelessWidget {
         ),
         Center(
             child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [
-                Text(
-                  date,
-                  style: GoogleFonts.montserrat(
-                      textStyle: const TextStyle(
-                          fontSize: 16,
-                          color: Colors.white,
-                          fontWeight: FontWeight.w500)),
-                ),
-              ],
-            )),
+          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+            Text(
+              date,
+              style: GoogleFonts.montserrat(
+                  textStyle: const TextStyle(
+                      fontSize: 16,
+                      color: Colors.white,
+                      fontWeight: FontWeight.w500)),
+            ),
+          ],
+        )),
         const SizedBox(
           height: 140,
         ),
@@ -72,7 +72,11 @@ class CurrentWeather extends StatelessWidget {
                 children: [
                   Column(
                     children: [
-                      Image.asset("assets/weather/humidity.png", width: 40, height: 40,),
+                      Image.asset(
+                        "assets/weather/humidity.png",
+                        width: 40,
+                        height: 40,
+                      ),
                       const SizedBox(
                         height: 10,
                       ),
@@ -84,7 +88,11 @@ class CurrentWeather extends StatelessWidget {
                   ),
                   Column(
                     children: [
-                      Image.asset("assets/weather/wind.png", width: 40, height: 40,),
+                      Image.asset(
+                        "assets/weather/wind.png",
+                        width: 40,
+                        height: 40,
+                      ),
                       const SizedBox(
                         height: 10,
                       ),
@@ -96,7 +104,11 @@ class CurrentWeather extends StatelessWidget {
                   ),
                   Column(
                     children: [
-                      Image.asset("assets/weather/11n.png", width: 40, height: 40,),
+                      Image.asset(
+                        "assets/weather/11n.png",
+                        width: 40,
+                        height: 40,
+                      ),
                       const SizedBox(
                         height: 10,
                       ),
@@ -107,9 +119,15 @@ class CurrentWeather extends StatelessWidget {
                     ],
                   ),
                   Column(
-                    children:  [
-                      Image.asset("assets/weather/uv.png", width: 40, height: 40,),
-                      SizedBox(height: 10,),
+                    children: [
+                      Image.asset(
+                        "assets/weather/uv.png",
+                        width: 40,
+                        height: 40,
+                      ),
+                      SizedBox(
+                        height: 10,
+                      ),
                       Text(
                         '${weatherDataCurrent.current.uvi}',
                         style: TextStyle(color: Colors.white),

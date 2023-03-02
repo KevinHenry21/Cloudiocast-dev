@@ -2,6 +2,8 @@ import 'package:animated_notch_bottom_bar/animated_notch_bottom_bar/animated_not
 import 'package:demo_run/Screens/ar_camera.dart';
 import 'package:demo_run/Screens/home_screen.dart';
 import 'package:demo_run/Screens/settings_screen.dart';
+import 'package:demo_run/utils/Services/local_notifications.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 
 class AnimatedBottomNavbar extends StatefulWidget {
@@ -32,6 +34,34 @@ class _AnimatedBottomNavbarState extends State<AnimatedBottomNavbar> {
   @override
   void initState() {
     super.initState();
+    // LocalNotificationService.initialize(context);
+    //
+    // //gives you the message on which user taps
+    // //and it opened the app from terminated state
+    // FirebaseMessaging.instance.getInitialMessage().then((message) {
+    //   if(message != null){
+    //     final routeFromMessage = message.data["route"];
+    //
+    //     Navigator.of(context).pushNamed(routeFromMessage);
+    //   }
+    // });
+    //
+    // //Foreground
+    // FirebaseMessaging.onMessage.listen((message){
+    //   if(message.notification != null){
+    //     print(message.notification!.body);
+    //     print(message.notification!.title);
+    //   }
+    //
+    //   LocalNotificationService.display(message);
+    // });
+    //
+    // // When the app is in background but opened and user taps
+    // // on the notification
+    // FirebaseMessaging.onMessageOpenedApp.listen((message) {
+    //   final routeFromMessage = message.data["route"];
+    //   Navigator.of(context).pushNamed(routeFromMessage);
+    // });
   }
 
   @override

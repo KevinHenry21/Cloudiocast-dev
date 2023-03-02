@@ -1,3 +1,4 @@
+import 'package:demo_run/Screens/Onboarding_screens.dart';
 import 'package:demo_run/Widgets/animated_bottombar.dart';
 import 'package:demo_run/Widgets/animation_slide_up.dart';
 import 'package:flutter/material.dart';
@@ -30,7 +31,7 @@ class _GetStartedScreenState extends State<GetStartedScreen> {
               context,
               PageTransition(
                 type: PageTransitionType.bottomToTop,
-                child: AnimatedBottomNavbar(),
+                child: OnboardingScreens(),
                 isIos: true,
                 duration: Duration(milliseconds: 200),
                 reverseDuration: Duration(milliseconds: 900),
@@ -61,17 +62,13 @@ class _GetStartedScreenState extends State<GetStartedScreen> {
                         'Cloudiocast',
                         style: GoogleFonts.cinzel(
                             textStyle: const TextStyle(
-                          fontSize: 45,
-                              color: Colors.white
-                        )),
+                                fontSize: 45, color: Colors.white)),
                       ),
                       Text(
                         'Bringing weather to life !',
                         style: GoogleFonts.montserrat(
                             textStyle: const TextStyle(
-                                fontSize: 18,
-                                color: Colors.white
-                            )),
+                                fontSize: 18, color: Colors.white)),
                       ),
                     ],
                   ),
