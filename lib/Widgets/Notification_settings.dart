@@ -15,7 +15,7 @@ class NotificationSettings extends StatelessWidget {
         debugPrint('Notification Scheduled for $scheduleTime');
         NotificationService().scheduleNotification(
             title: 'Weather Updates',
-            body: 'Today\'s temperature is ${weatherDataCurrent.current.temp?.ceil()}, It is a ${weatherDataCurrent.current.weather![0].description}, Enjoy it with ice cream and have a walk.',
+            body: 'Today\'s temperature is ${weatherDataCurrent.current.temp?.ceil()}, It is a ${weatherDataCurrent.current.weather![0].description}, Enjoy it with ice cream and have a nice day.',
             scheduledNotificationDateTime: scheduleTime
         );
       },

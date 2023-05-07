@@ -17,24 +17,28 @@ class WeatherDetails extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        margin: EdgeInsets.symmetric(horizontal: 20.0),
+        margin: EdgeInsets.symmetric(horizontal: 10),
         child: Column(
           children: [
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                WeatherDeatilsList(
-                  weatherParameter: weatherDataCurrent.current.feelsLike!,
-                  timeStamp: weatherDataCurrent.current.sunrise!,
-                  icon: "sunrise",
-                  text: 'Sunrise',
+                Expanded(
+                    child: WeatherDeatilsList(
+                      weatherParameter: weatherDataCurrent.current.feelsLike!,
+                      timeStamp: weatherDataCurrent.current.sunrise!,
+                      icon: "sunrise",
+                      text: 'Sunrise',
+                    ),
                 ),
-                WeatherDeatilsList(
-                  weatherParameter: weatherDataCurrent.current.feelsLike!,
-                  timeStamp: weatherDataCurrent.current.sunset!,
-                  icon: "sunset",
-                  text: 'Sunset',
-                ),
+                Expanded(
+                    child: WeatherDeatilsList(
+                      weatherParameter: weatherDataCurrent.current.feelsLike!,
+                      timeStamp: weatherDataCurrent.current.sunset!,
+                      icon: "sunset",
+                      text: 'Sunset',
+                    ),
+                )
               ],
             ),
             SizedBox(
@@ -43,14 +47,20 @@ class WeatherDetails extends StatelessWidget {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                WeatherDeatilsList1(
-                    weatherParameter: weatherDataCurrent.current.feelsLike!,
-                    icon: "feelslike",
-                    text: 'Feels like'),
-                WeatherDeatilsList1(
-                    weatherParameter: weatherDataCurrent.current.visibility!,
-                    icon: "visibility",
-                    text: 'Visibility'),
+                Expanded(
+                    child: WeatherDeatilsList1(
+                        weatherParameter: '${weatherDataCurrent.current.feelsLike!.toString()} °C',
+                        icon: "feelslike",
+                        text: 'Feels like'
+                    ),
+                ),
+                Expanded(
+                    child: WeatherDeatilsList1(
+                        weatherParameter: '${(weatherDataCurrent.current.visibility!/1000).toString()} km',
+                        icon: "visibility",
+                        text: 'Visibility'
+                    )
+                ),
               ],
             )
           ],
@@ -80,58 +90,49 @@ class WeatherDeatilsList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.start,
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Container(
-              //margin: EdgeInsets.symmetric(horizontal: 20.0),
-              padding: EdgeInsets.all(20.0),
-              width: 180,
-              // color: Color(0x81232E34),
-              decoration: BoxDecoration(
-                  color: Theme.of(context).selectedRowColor,
-                  borderRadius: BorderRadius.circular(20)),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
-                    children: [
-                      Image.asset(
-                        "assets/weather/$icon.png",
-                        width: 30,
-                        height: 30,
-                      ),
-                      SizedBox(
-                        width: 10,
-                      ),
-                      Text('Sunrise')
-                    ],
-                  ),
-                  SizedBox(
-                    height: 10,
-                  ),
-                  Text(
-                    getTime(timeStamp),
-                    style: TextStyle(fontSize: 24),
-                  )
-                ],
+    return Container(
+      //margin: EdgeInsets.symmetric(horizontal: 20.0),
+      // padding: EdgeInsets.all(10.0),
+      padding: EdgeInsets.all(20),
+      margin: EdgeInsets.symmetric(horizontal: 10.0),
+      width: MediaQuery.of(context).size.width*0.4-MediaQuery.of(context).padding.horizontal,
+      // height: MediaQuery.of(context).size.height*0.12,
+      // color: Color(0x81232E34),
+      decoration: BoxDecoration(
+          color: Theme.of(context).selectedRowColor,
+          borderRadius: BorderRadius.circular(20)),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Image.asset(
+                "assets/weather/$icon.png",
+                width: 30,
+                height: 30,
               ),
-            ),
-          ],
-        )
-      ],
+              SizedBox(
+                width: 10,
+              ),
+              Text('$text')
+            ],
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Text(
+            getTime(timeStamp),
+            style: TextStyle(fontSize: 20),
+          )
+        ],
+      ),
     );
   }
 }
 
 class WeatherDeatilsList1 extends StatelessWidget {
-  int weatherParameter;
+  String weatherParameter;
   String icon;
   String text;
 
@@ -144,52 +145,41 @@ class WeatherDeatilsList1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.start,
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Container(
-              //margin: EdgeInsets.symmetric(horizontal: 20.0),
-              padding: EdgeInsets.all(20.0),
-              width: 180,
-              // color: Color(0x81232E34),
-              decoration: BoxDecoration(
-                  color: Theme.of(context).selectedRowColor,
-                  borderRadius: BorderRadius.circular(20)),
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.start,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
-                    children: [
-                      Image.asset(
-                        "assets/weather/$icon.png",
-                        width: 30,
-                        height: 30,
-                      ),
-                      const SizedBox(
-                        width: 10,
-                      ),
-                      Text(text)
-                    ],
-                  ),
-                  const SizedBox(
-                    height: 10,
-                  ),
-                  Text(
-                    '$weatherParameter',
-                    style: TextStyle(fontSize: 24),
-                  )
-                ],
+    return Container(
+      margin: EdgeInsets.symmetric(horizontal: 10.0),
+      padding: EdgeInsets.all(20.0),
+      width: MediaQuery.of(context).size.width*0.36,
+      // height: MediaQuery.of(context).size.height*0.12,
+      // color: Color(0x81232E34),
+      decoration: BoxDecoration(
+          color: Theme.of(context).selectedRowColor,
+          borderRadius: BorderRadius.circular(20)),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Image.asset(
+                "assets/weather/$icon.png",
+                width: 30,
+                height: 30,
               ),
-            ),
-          ],
-        )
-      ],
+              const SizedBox(
+                width: 10,
+              ),
+              Text(text)
+            ],
+          ),
+          const SizedBox(
+            height: 10,
+          ),
+          Text(
+            '$weatherParameter',
+            style: TextStyle(fontSize: 24),
+          )
+        ],
+      ),
     );
   }
 }

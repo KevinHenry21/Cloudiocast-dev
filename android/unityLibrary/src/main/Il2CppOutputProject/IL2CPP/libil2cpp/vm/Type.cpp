@@ -1053,11 +1053,6 @@ namespace vm
         return type->type == IL2CPP_TYPE_GENERICINST;
     }
 
-    bool Type::IsGenericParameter(const Il2CppType* type)
-    {
-        return type->type == IL2CPP_TYPE_VAR || type->type == IL2CPP_TYPE_MVAR;
-    }
-
     Il2CppReflectionType* Type::GetDeclaringType(const Il2CppType* type)
     {
         Il2CppClass *typeInfo = NULL;
@@ -1179,7 +1174,7 @@ namespace vm
             return false;
 
         // Any generic parameter that is not constrained to be a reference type would be fully shared
-        if (IsGenericParameter(type))
+        if (type->type == IL2CPP_TYPE_VAR || type->type == IL2CPP_TYPE_MVAR)
             return MetadataCache::IsReferenceTypeGenericParameter(MetadataCache::GetGenericParameterFromType(type)) != GenericParameterRestrictionReferenceType;
 
         // If we're not a generic instance then we'll be a concrete type

@@ -6962,7 +6962,7 @@ IL_00f3_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 8816));
 			NullCheck(L_29);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_30;
-			L_30 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(21 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_29, ((int32_t)58));
+			L_30 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(18 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_29, ((int32_t)58));
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 8816));
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 8817));
 			NullCheck(L_30);
@@ -7327,7 +7327,7 @@ IL_011f_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 8852));
 			NullCheck(L_35);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_38;
-			L_38 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(21 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_35, L_37);
+			L_38 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(18 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_35, L_37);
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 8852));
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 8853));
 			NullCheck(L_38);
@@ -7466,7 +7466,7 @@ IL_0204_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 8869));
 			NullCheck(L_65);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_68;
-			L_68 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(21 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_65, L_67);
+			L_68 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(18 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_65, L_67);
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 8869));
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 8870));
 			NullCheck(L_68);
@@ -7530,7 +7530,7 @@ IL_0282_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 8877));
 			NullCheck(L_79);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_80;
-			L_80 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(21 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_79, ((int32_t)58));
+			L_80 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(18 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_79, ((int32_t)58));
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 8877));
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 8878));
 			NullCheck(L_80);
@@ -8426,7 +8426,7 @@ IL_0172_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 8966));
 			NullCheck(L_43);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_44;
-			L_44 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(21 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_43, ((int32_t)40));
+			L_44 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(18 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_43, ((int32_t)40));
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 8966));
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 8967));
 			NullCheck(L_44);
@@ -8954,7 +8954,7 @@ IL_008d_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9015));
 			NullCheck(L_16);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_19;
-			L_19 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(21 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_16, L_18);
+			L_19 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(18 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_16, L_18);
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9015));
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9016));
 			NullCheck(L_19);
@@ -9148,7 +9148,7 @@ IL_01e9_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9041));
 			NullCheck(L_58);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_61;
-			L_61 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(21 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_58, L_60);
+			L_61 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(18 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_58, L_60);
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9041));
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9042));
 			NullCheck(L_61);
@@ -9535,7 +9535,7 @@ IL_0146_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9083));
 			NullCheck(L_42);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_45;
-			L_45 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(21 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_42, L_44);
+			L_45 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(18 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_42, L_44);
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9083));
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9084));
 			NullCheck(L_45);
@@ -9676,7 +9676,7 @@ IL_0234_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9102));
 			NullCheck(L_75);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_78;
-			L_78 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(21 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_75, L_77);
+			L_78 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(18 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_75, L_77);
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9102));
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9103));
 			NullCheck(L_78);
@@ -10053,7 +10053,7 @@ IL_012f_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9142));
 			NullCheck(L_38);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_41;
-			L_41 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(21 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_38, L_40);
+			L_41 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(18 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_38, L_40);
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9142));
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9143));
 			NullCheck(L_41);
@@ -10194,7 +10194,7 @@ IL_021d_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9161));
 			NullCheck(L_71);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_74;
-			L_74 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(21 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_71, L_73);
+			L_74 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(18 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_71, L_73);
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9161));
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9162));
 			NullCheck(L_74);
@@ -10470,7 +10470,7 @@ IL_0089_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9187));
 			NullCheck(L_16);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_19;
-			L_19 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(21 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_16, L_18);
+			L_19 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(18 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_16, L_18);
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9187));
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9188));
 			NullCheck(L_19);
@@ -10604,7 +10604,7 @@ IL_017c_1:
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9205));
 			NullCheck(L_46);
 			Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* L_49;
-			L_49 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(21 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_46, L_48);
+			L_49 = VirtualFuncInvoker1< Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572*, Il2CppChar >::Invoke(18 /* System.Threading.Tasks.Task System.IO.TextWriter::WriteAsync(System.Char) */, L_46, L_48);
 			CHECK_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9205));
 			STORE_SEQ_POINT(methodExecutionContext, (g_sequencePointsNewtonsoft_Json + 9206));
 			NullCheck(L_49);

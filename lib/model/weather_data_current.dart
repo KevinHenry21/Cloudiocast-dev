@@ -57,6 +57,8 @@ class Current {
             .toList(),
       );
 
+  // get current => null;
+
   Map<String, dynamic> toJson() => {
         'dt': dt,
         'sunrise': sunrise,

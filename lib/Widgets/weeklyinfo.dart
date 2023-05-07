@@ -6,7 +6,7 @@ import 'package:google_fonts/google_fonts.dart';
 class WeeklyInfo extends StatelessWidget {
   final WeatherDataDaily weatherDataDaily;
 
-  WeeklyInfo({Key? key, required this.weatherDataDaily}) : super(key: key);
+  const WeeklyInfo({Key? key, required this.weatherDataDaily}) : super(key: key);
 
   // string manipulation
   String getDaily(final day) {
@@ -19,8 +19,8 @@ class WeeklyInfo extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       height: 450,
-      margin: EdgeInsets.all(20.0),
-      padding: EdgeInsets.all(24.0),
+      margin: const EdgeInsets.all(20.0),
+      padding: const EdgeInsets.all(24.0),
       decoration: BoxDecoration(
           color: Theme.of(context).selectedRowColor,
           borderRadius: BorderRadius.circular(20)),
@@ -28,11 +28,11 @@ class WeeklyInfo extends StatelessWidget {
         children: [
           Container(
             alignment: Alignment.topLeft,
-            margin: EdgeInsets.only(bottom: 10.0),
+            margin: const EdgeInsets.only(bottom: 10.0),
             child: Text(
               "Next Days",
               style: GoogleFonts.montserrat(
-                textStyle: TextStyle(
+                textStyle: const TextStyle(
                   fontSize: 24,
                 ),
               ),
@@ -48,8 +48,8 @@ class WeeklyInfo extends StatelessWidget {
     return SizedBox(
       height: 350,
       child: ListView.builder(
-          padding: EdgeInsets.all(10.0),
-          physics: NeverScrollableScrollPhysics(),
+          padding: const EdgeInsets.all(10.0),
+          physics: const NeverScrollableScrollPhysics(),
           itemCount: weatherDataDaily.daily.length > 7
               ? 7
               : weatherDataDaily.daily.length,
@@ -77,7 +77,7 @@ class WeeklyInfo extends StatelessWidget {
                             child: Image.asset(
                                 "assets/weather/${weatherDataDaily.daily[index].weather![0].icon}.png"),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             width: 30,
                           ),
                           Text(

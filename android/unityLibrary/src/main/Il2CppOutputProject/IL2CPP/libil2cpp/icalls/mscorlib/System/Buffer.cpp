@@ -21,7 +21,6 @@ namespace System
     {
         switch (type->type)
         {
-            case IL2CPP_TYPE_I1:
             case IL2CPP_TYPE_U1:
             case IL2CPP_TYPE_BOOLEAN:
             case IL2CPP_TYPE_I2:

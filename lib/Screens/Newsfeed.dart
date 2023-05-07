@@ -67,7 +67,7 @@ class BlogTile extends StatelessWidget{
     return Container(
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(20),
-        color: Theme.of(context).primaryColor
+        color: Theme.of(context).selectedRowColor,
       ),
       padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 10),
       child: Padding(
@@ -122,8 +122,8 @@ class BlogTile extends StatelessWidget{
                     borderRadius: BorderRadius.circular(30),
                   color: Colors.blue
                 ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
+                  child: const Padding(
+                    padding: EdgeInsets.all(8.0),
                     child: Text('Read More'),
                   ),
               )

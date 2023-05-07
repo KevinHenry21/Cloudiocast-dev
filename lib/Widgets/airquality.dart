@@ -18,7 +18,6 @@ class _AQIPageState extends State<AQIPage> {
   WeatherModel weather = WeatherModel();
   String? _aqiMessage;
   Future<void> _fetchAQIData()  async {
-    // final apiKey = '8e88f1a28cd58fba379418973d8d561d';
     final response =  await http.get(
       Uri.parse('https://api.openweathermap.org/data/2.5/air_pollution?lat=12&lon=77&appid=8e88f1a28cd58fba379418973d8d561d'),
     );

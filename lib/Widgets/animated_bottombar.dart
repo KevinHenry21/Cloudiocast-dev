@@ -116,7 +116,7 @@ class _AnimatedBottomNavbarState extends State<AnimatedBottomNavbar> {
                 /// control your animation using page controller
                 _pageController.animateToPage(
                   index,
-                  duration: const Duration(milliseconds: 500),
+                  duration: const Duration(milliseconds: 200),
                   curve: Curves.easeInOut,
                 );
               },

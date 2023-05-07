@@ -35,7 +35,6 @@ class _HeaderWidgetState extends State<HeaderWidget> {
       city = place.locality!;
       country = place.country!;
     });
-    // print(placemark);
   }
 
   @override
@@ -50,79 +49,77 @@ class _HeaderWidgetState extends State<HeaderWidget> {
           fit: BoxFit.cover,
         ),
       ),
-      Container(
-        child: Column(
-          children: [
-            Row(
-              mainAxisAlignment: MainAxisAlignment.end,
-              children: [
-                Container(
-                  margin: EdgeInsets.symmetric(vertical: 25.0, horizontal: 16),
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(30),
-                    color: Theme.of(context).primaryColor,
-                    boxShadow: const [
-                      BoxShadow(
-                        color: Color(0xFF3D5D84),
-                        blurRadius: 15,
-                        spreadRadius: 1,
-                        offset: Offset(4, 2),
-                      ),
-                      BoxShadow(
-                        color: Colors.blueGrey,
-                        blurRadius: 15,
-                        spreadRadius: 1,
-                        offset: Offset(-4, -4),
-                      ),
-                    ],
-                  ),
-                  child:
-                      GestureDetector(
-                        onTap: () {
-                          ThemeService().switchTheme();
-                        },
-                        child: const Padding(
-                          padding: EdgeInsets.all(12.0),
-                          child: Icon(
-                            Icons.nightlight_round_sharp,
-                            size: 28,
-                          ),
+      Column(
+        children: [
+          Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: [
+              Container(
+                margin: EdgeInsets.symmetric(vertical: 25.0, horizontal: 16),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(30),
+                  color: Theme.of(context).primaryColor,
+                  boxShadow: const [
+                    BoxShadow(
+                      color: Color(0xFF3D5D84),
+                      blurRadius: 15,
+                      spreadRadius: 1,
+                      offset: Offset(4, 2),
+                    ),
+                    BoxShadow(
+                      color: Colors.blueGrey,
+                      blurRadius: 15,
+                      spreadRadius: 1,
+                      offset: Offset(-4, -4),
+                    ),
+                  ],
+                ),
+                child:
+                    GestureDetector(
+                      onTap: () {
+                        ThemeService().switchTheme();
+                      },
+                      child: const Padding(
+                        padding: EdgeInsets.all(12.0),
+                        child: Icon(
+                          Icons.nightlight_round_sharp,
+                          size: 28,
                         ),
                       ),
+                    ),
+              ),
+            ],
+          ),
+          Container(
+            child: Column(
+              children: [
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.center,
+                  children: [
+                    Icon(Icons.location_on_outlined, color: Colors.white
+                        // color: Color(0xFF1A98B6),
+                        ),
+                    SizedBox(
+                      width: 10,
+                    ),
+                    Text(
+                      city + ",  " + country,
+                      style: TextStyle(fontSize: 20, color: Colors.white),
+                    )
+                  ],
+                ),
+                const SizedBox(
+                  height: 10,
+                ),
+                CurrentWeather(
+                  weatherDataCurrent:
+                      globalController.getWeatherData().getCurrentWeather(),
                 ),
               ],
             ),
-            Container(
-              child: Column(
-                children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      Icon(Icons.location_on_outlined, color: Colors.white
-                          // color: Color(0xFF1A98B6),
-                          ),
-                      SizedBox(
-                        width: 10,
-                      ),
-                      Text(
-                        city + ",  " + country,
-                        style: TextStyle(fontSize: 20, color: Colors.white),
-                      )
-                    ],
-                  ),
-                  const SizedBox(
-                    height: 10,
-                  ),
-                  CurrentWeather(
-                    weatherDataCurrent:
-                        globalController.getWeatherData().getCurrentWeather(),
-                  ),
-                ],
-              ),
-            )
-          ],
-        ),
+          )
+        ],
       )
     ]);
   }

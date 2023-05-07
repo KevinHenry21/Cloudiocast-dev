@@ -1,5 +1,7 @@
 import 'package:demo_run/Widgets/animated_bottombar.dart';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
+
 
 class OnboardingScreens extends StatefulWidget {
   const OnboardingScreens({Key? key}) : super(key: key);
@@ -11,8 +13,6 @@ class OnboardingScreens extends StatefulWidget {
 class _OnboardingScreensState extends State<OnboardingScreens> {
 
   late PageController _pageController;
-
-  int _pageIndex = 0;
 
   @override
   void initState(){
@@ -39,7 +39,8 @@ class _OnboardingScreensState extends State<OnboardingScreens> {
               child: TextButton(
                 onPressed: (){
                   Navigator.push(
-                    context, MaterialPageRoute(builder: (context) => AnimatedBottomNavbar()) );
+                    context, MaterialPageRoute(builder: (context) =>AnimatedBottomNavbar() ) );
+                  // AnimatedBottomNavbar()
                 },
                 child: Text(
                     'Skip',
@@ -55,7 +56,6 @@ class _OnboardingScreensState extends State<OnboardingScreens> {
                 itemCount: demo_data.length,
                 onPageChanged: (index){
                   setState(() {
-                    _pageIndex = index;
                   });
                 },
                 itemBuilder: (context, index) =>  OnboardContent(
@@ -160,19 +160,19 @@ class Onboard{
 
 final List<Onboard> demo_data = [
   Onboard(
-      image: 'assets/Images/Paris.jpg',
-      title: "Get those shopping \nbags filled",
-      description: "Add any item you want to your cart, or save it on your wishlist, and check for items.",
+      image: 'assets/Weather_Simulation.json', //weather Simulation
+      title: "See the forecast\ncome to life with immersive simulations.",
+      description: "With Cloudiocast, you can access accurate weather forecasts and simulations right at your fingertips.",
   ),
   Onboard(
-    image: 'assets/Images/London.jpg',
-    title: "Find the item you've \nbeen looking for",
-    description: "Here you'll see rich varieties of goods, carefully classified for you to identify.",
+    image: 'assets/Crop .json',
+    title: "Personalized gardening\nrecommendations based on weather data.",
+    description: "Our app uses weather data to provide customized recommendations for the best plants to grow in your area."
   ),
   Onboard(
-    image: 'assets/Images/Jaipur.jpg',
-    title: "Fast and secure \npayment",
-    description: "There are may payment options available, carefully classified for you to identify.",
+    image: 'assets/Monuments.json',
+    title: "Explore the weather\nlike never before.",
+    description: "See a beautiful 3D monument that changes with the weather, providing a unique and immersive way to experience the forecast.",
   ),
 ];
 
@@ -190,7 +190,13 @@ class OnboardContent extends StatelessWidget{
         child: Column(
           children: [
             const Spacer(),
-            Image.asset(image, height: 250,),
+            Lottie.asset(
+              image,
+              animate: true,
+              width: 400,
+              height: 400,
+            ),
+            SizedBox(height:16),
             Text(
               title,
               textAlign: TextAlign.center,
@@ -202,6 +208,7 @@ class OnboardContent extends StatelessWidget{
             Text(
               description,
               textAlign: TextAlign.center,
+              style:TextStyle(fontSize: 16)
             ),
             const Spacer(),
           ],
