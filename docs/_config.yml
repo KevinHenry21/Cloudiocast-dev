@@ -1,0 +1,14 @@
+# BASIC OPTIONS 
+title: CLOUDIOCAST
+author: SUCHITRA SWAIN
+email: suchi7246@gmail.com
+description: An AR Weather App
+
+baseurl: "Cloudiocast"
+url: ""
+
+#BUILD SETTINGS
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed 

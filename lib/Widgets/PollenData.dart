@@ -12,7 +12,7 @@ class PollenData extends StatefulWidget {
 
 class _PollenDataState extends State<PollenData> {
   // Replace YOUR_API_KEY with your actual Ambee API key
-  String apiKey = '63f4f72861b2d5c9cd24260129244d2a46dc8a4c41a10c70c4cf61a722869639';
+  String apiKey = '282801badd1cc3ef325ef3bd9c240351568e6c855f42246502e5bd8c9ebd3a54';
   int? treePollenValue;
   String? treePollenStatus;
   int? grassPollenValue;

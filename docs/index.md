@@ -1,3 +1,12 @@
+---
+layout: home
+output: html_document
+---
+
+{% tabs data-struct %}
+
+{% tab data-struct Consumer %}
+
 ## CONSUMER
 
 ### Watch this
@@ -15,7 +24,9 @@ effcient mixed reality experience to get accurate weather forecasts.
 
 [https://www.figma.com/file/4IX7dthr0Mh96k0Chv5qUB/Landing-page-%26-mobile-app--weather-app?node-id=47%3A209](https://www.figma.com/file/4IX7dthr0Mh96k0Chv5qUB/Landing-page-%26-mobile-app--weather-app?node-id=47%3A209)
 
-------------------------------------------------------------------------
+{% endtab %}
+
+{% tab data-struct Developer %}
 
 ## DEVELOPERS
 
@@ -67,15 +78,7 @@ system.
 
 ### Product Architecture
 
-
-Level 1 Context Diagram
-![ProductArchitecture](https://user-images.githubusercontent.com/69208308/199923746-bed3216d-e79e-49ca-a054-e100a5cfd0ef.png)
-
-Level 2 Container Diagram
-![ProductArchitecture](https://user-images.githubusercontent.com/69208308/199923871-397ae07d-5379-47b2-a842-d445ec9f8186.png)
-
-Level 3 Component diagram
-![ProductArchitecture](https://user-images.githubusercontent.com/69208308/199924011-12af9ae4-d10e-4f86-8a2f-b32395b53569.png)
+![ProductArchitecture](https://user-images.githubusercontent.com/69208308/196503772-d94606b3-d9a9-45d0-bfe8-a2526b7ca7a3.jpeg)
 
 ### DevSecOps Workflow
 
@@ -108,3 +111,7 @@ Please adhere to this project's `code of conduct`.
     [Akash Pandey](https://github.com/pandeyakash)\
 -   Security: [Samarth M Sharma](https://github.com/samarthsharma07)\
 -   Operations: [Rubeen Sakeena](https://github.com/Rubeensakeena23)
+
+{% endtab %}
+
+{% endtabs %}

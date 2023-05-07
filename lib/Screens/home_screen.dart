@@ -620,7 +620,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     const SizedBox(
                       height: 10,
                     ),
-                    const PollenData(),
+                    // const PollenData(),
                     const SizedBox(
                       height: 20,
                     ),
